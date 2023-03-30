@@ -12,7 +12,7 @@ chapters.v <- xml_children(body.v)[5:43]
 
 print(chapters.v)
 
-verse.chapters <- c()
+verse.chapters <- c() # chapter numbers containing verses
 i <- 1 # We start at chapter 1
 
 # We try to loop through every chapter to check each chapter for the 
