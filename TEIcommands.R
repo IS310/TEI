@@ -17,9 +17,14 @@ i <- 1 # We start at chapter 1
 
 # We try to loop through every chapter to check each chapter for the 
 # existence of a <lg> tag, and print the chapter number if we do
+
 for (chapter in chapters.v) {
-  if (length(xml_find_all(chapter, "//lg")) > 0) { # this expression doesn't work as expected
+  # The issue with the previous expression was the diff between ".//lg" and "//lg"
+  # "//lg searches the entire document, where as .//lg searching beneath the current node
+  
+  if (length(xml_find_all(chapter, ".//lg")) > 0) {
     print(i)
+    append(verse.chapters, i)
   }
   i <- i + 1
 }
