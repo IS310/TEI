@@ -1,0 +1,22 @@
+```{r}
+library(xml2)
+doc <- read_xml("JaneEyre.tei")
+xml_ns_strip(doc)
+nodes.l<-xml_find_all(doc, "//lg")
+
+```
+
+```{r}
+xml_parents(nodes.l[[1]]) # Get a node set of all the parent nodes of a lg node.
+#The parent at the second level is the div of the chapter node containing the lg node.
+```
+
+```{r}
+
+for (node in nodes.l) { # for all the nodes of lg
+  # First, use xml_parents to get all the parent levels of that lg node.
+  # Second, we find that the second layer parent is the chapter node. Therefore use [[2]] to retrieve it.
+  # Finally, we can use xml_attrs to retrieve the chapter id.
+  print(xml_attrs(xml_parents(node)[[2]])["id"])
+}
+```
