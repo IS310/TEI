@@ -10,6 +10,9 @@ nodes.l<-xml_find_all(doc, "//lg")
 xml_parents(nodes.l[[1]]) # Get a node set of all the parent nodes of a lg node.
 #The parent at the second level is the div of the chapter node containing the lg node.
 ```
+```{r}
+xml_children(xml_parents(nodes.l[[1]]))
+```
 
 ```{r}
 

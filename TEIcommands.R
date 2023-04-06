@@ -4,3 +4,4 @@ xml_ns_strip(doc)
 xml_find_all(doc, "//lg")
 
 
+
