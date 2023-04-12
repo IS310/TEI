@@ -26,3 +26,4 @@ chapterList
 # Though haughty is from Chapter XXIV
 # My love has\n is from Chapter XXIV
 # My love has sworn is from Chapter XXIV
+>>>>>>> origin/table5new
