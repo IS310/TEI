@@ -14,7 +14,8 @@ Brontë</title>
   </fileDesc>
 </teiHeader>
 <text>
-<body>
+  <front>
+    <div>
 <p>The Project Gutenberg eBook of Jane Eyre, by Charlotte Brontë</p>
 <p>This eBook is for the use of anyone anywhere in the United States and
 most other parts of the world at no cost and with almost no restrictions
@@ -31,9 +32,10 @@ December 1, 2020]</p>
 <p>Character set encoding: UTF-8</p>
 <p>Produced by: David Price</p>
 <p>*** START OF THE PROJECT GUTENBERG EBOOK JANE EYRE ***</p>
-<div type="level1" xml:id="jane-eyre-an-autobiography">
+    </div>
+<titlePage>    
   <head>JANE EYRE<lb />AN AUTOBIOGRAPHY</head>
-  <div type="level2" xml:id="by-charlotte-brontë">
+  <div type="lev2" xml:id="by-charlotte-brontë">
     <head>by Charlotte Brontë</head>
     <p><hi rendition="simple:italic">ILLUSTRATED BY F. H.
     TOWNSEND</hi></p>
@@ -48,7 +50,8 @@ December 1, 2020]</p>
     <p>BY<lb />THE AUTHOR</p>
     <milestone unit="undefined" type="separator" rendition="line" />
   </div>
-  <div type="level2" xml:id="preface">
+</titlePage>
+  <div type="preface" xml:id="preface">
     <head>PREFACE</head>
     <p>A preface to the first edition of “Jane Eyre” being unnecessary,
     I gave none: this second edition demands a few words both of
@@ -131,7 +134,7 @@ December 1, 2020]</p>
     <p><hi rendition="simple:italic">December</hi>
     21<hi rendition="simple:italic">st</hi>, 1847.</p>
   </div>
-  <div type="level2" xml:id="note-to-the-third-edition">
+  <div type="preface" xml:id="note-to-the-third-edition">
     <head>NOTE TO THE THIRD EDITION</head>
     <p>I avail myself of the opportunity which a third edition of “Jane
     Eyre” affords me, of again addressing a word to the Public, to
@@ -145,7 +148,10 @@ December 1, 2020]</p>
     <p><hi rendition="simple:italic">April</hi>
     13<hi rendition="simple:italic">th</hi>, 1848.</p>
   </div>
-  <div type="level2" xml:id="chapter-i">
+  </front>
+  <body>
+<div type="level1" xml:id="jane-eyre-an-autobiography">    
+  <div type="chapter" xml:id="chapter-i">
     <head>CHAPTER I</head>
     <p>There was no possibility of taking a walk that day. We had been
     wandering, indeed, in the leafless shrubbery an hour in the morning;
@@ -331,7 +337,7 @@ December 1, 2020]</p>
     <p>“Take her away to the red-room, and lock her in there.” Four
     hands were immediately laid upon me, and I was borne upstairs.</p>
   </div>
-  <div type="level2" xml:id="chapter-ii">
+  <div type="chapter" xml:id="chapter-ii">
     <head>CHAPTER II</head>
     <p>I resisted all the way: a new thing for me, and a circumstance
     which greatly strengthened the bad opinion Bessie and Miss Abbot
@@ -500,7 +506,7 @@ December 1, 2020]</p>
     child—though equally dependent and friendless—Mrs. Reed would have
     endured my presence more complacently; her children would have
     entertained for me more of the cordiality of fellow-feeling; the
-    servants would have been less prone to make me the <seg type="idiom" source="#Lev16">scapegoat</seg> of the
+    servants would have been less prone to make me the <seg type="idiom" source="#Lev16" xml:id="scapegoat-ref">scapegoat</seg> of the
     nursery.</p>
     <p>Daylight began to forsake the red-room; it was past four o’clock,
     and the beclouded afternoon was tending to drear twilight. I heard
@@ -592,7 +598,7 @@ December 1, 2020]</p>
     after she was gone, I suppose I had a species of fit:
     unconsciousness closed the scene.</p>
   </div>
-  <div type="level2" xml:id="chapter-iii">
+  <div type="chapter" xml:id="chapter-iii">
     <head>CHAPTER III</head>
     <p>The next thing I remember is, waking up with a feeling as if I
     had had a frightful nightmare, and seeing before me a terrible red
@@ -914,7 +920,7 @@ December 1, 2020]</p>
     <p>“So could I—with a roast onion. Come, we’ll go down.” They
     went.</p>
   </div>
-  <div type="level2" xml:id="chapter-iv">
+  <div type="chapter" xml:id="chapter-iv">
     <head>CHAPTER IV</head>
     <p>From my discourse with Mr. Lloyd, and from the above reported
     conference between Bessie and Abbot, I gathered enough of hope to
@@ -1481,7 +1487,7 @@ December 1, 2020]</p>
     me some of her sweetest songs. Even for me life had its gleams of
     sunshine.</p>
   </div>
-  <div type="level2" xml:id="chapter-v">
+  <div type="chapter" xml:id="chapter-v">
     <head>CHAPTER V</head>
     <p>Five o’clock had hardly struck on the morning of the 19th of
     January, when Bessie brought a candle into my closet and found me
@@ -1967,7 +1973,7 @@ December 1, 2020]</p>
     then study; then the glass of water and the piece of oat-cake,
     prayers, and bed. Such was my first day at Lowood.</p>
   </div>
-  <div type="level2" xml:id="chapter-vi">
+  <div type="chapter" xml:id="chapter-vi">
     <head>CHAPTER VI</head>
     <p>The next day commenced as before, getting up and dressing by
     rushlight; but this morning we were obliged to dispense with the
@@ -2245,7 +2251,7 @@ December 1, 2020]</p>
     <p>Helen sighed as her reverie fled, and getting up, obeyed the
     monitor without reply as without delay.</p>
   </div>
-  <div type="level2" xml:id="chapter-vii">
+  <div type="chapter" xml:id="chapter-vii">
     <head>CHAPTER VII</head>
     <p>My first quarter at Lowood seemed an age; and not the golden age
     either; it comprised an irksome struggle with difficulties in
@@ -2587,7 +2593,7 @@ December 1, 2020]</p>
     clearest planet; and eyes like Miss Scatcherd’s can only see those
     minute defects, and are blind to the full brightness of the orb.</p>
   </div>
-  <div type="level2" xml:id="chapter-viii">
+  <div type="chapter" xml:id="chapter-viii">
     <head>CHAPTER VIII</head>
     <p>Ere the half-hour ended, five o’clock struck; school was
     dismissed, and all were gone into the refectory to tea. I now
@@ -2875,7 +2881,7 @@ December 1, 2020]</p>
     <p>I would not now have exchanged Lowood with all its privations for
     Gateshead and its daily luxuries.</p>
   </div>
-  <div type="level2" xml:id="chapter-ix">
+  <div type="chapter" xml:id="chapter-ix">
     <head>CHAPTER IX</head>
     <p>But the privations, or rather the hardships, of Lowood lessened.
     Spring drew on: she was indeed already come; the frosts of winter
@@ -3181,7 +3187,7 @@ December 1, 2020]</p>
     marble tablet marks the spot, inscribed with her name, and the word
     “Resurgam.”</p>
   </div>
-  <div type="level2" xml:id="chapter-x">
+  <div type="chapter" xml:id="chapter-x">
     <head>CHAPTER X</head>
     <p>Hitherto I have recorded in detail the events of my insignificant
     existence: to the first ten years of my life I have given almost as
@@ -3596,7 +3602,7 @@ December 1, 2020]</p>
     vehicle which was to bear me to new duties and a new life in the
     unknown environs of Millcote.</p>
   </div>
-  <div type="level2" xml:id="chapter-xi">
+  <div type="chapter" xml:id="chapter-xi">
     <head>CHAPTER XI</head>
     <p>A new chapter in a novel is something like a new scene in a play;
     and when I draw up the curtain this time, reader, you must fancy you
@@ -4199,7 +4205,7 @@ December 1, 2020]</p>
     <p>We found dinner ready, and waiting for us in Mrs. Fairfax’s
     room.</p>
   </div>
-  <div type="level2" xml:id="chapter-xii">
+  <div type="chapter" xml:id="chapter-xii">
     <head>CHAPTER XII</head>
     <p>The promise of a smooth career, which my first calm introduction
     to Thornfield Hall seemed to pledge, was not belied on a longer
@@ -4592,7 +4598,7 @@ December 1, 2020]</p>
     was now with Mr. Rochester: then she hurried out to give orders
     about tea, and I went upstairs to take off my things.</p>
   </div>
-  <div type="level2" xml:id="chapter-xiii">
+  <div type="chapter" xml:id="chapter-xiii">
     <head>CHAPTER XIII</head>
     <p>Mr. Rochester, it seems, by the surgeon’s orders, went to bed
     early that night; nor did he rise soon next morning. When he did
@@ -5012,7 +5018,7 @@ December 1, 2020]</p>
     she knew was chiefly from conjecture. It was evident, indeed, that
     she wished me to drop the subject, which I did accordingly.</p>
   </div>
-  <div type="level2" xml:id="chapter-xiv">
+  <div type="chapter" xml:id="chapter-xiv">
     <head>CHAPTER XIV</head>
     <p>For several subsequent days I saw little of Mr. Rochester. In the
     mornings he seemed much engaged with business, and, in the
@@ -5490,7 +5496,7 @@ December 1, 2020]</p>
     Roman Catholic principle of expiating numerous sins, great or small,
     by one good work. I’ll explain all this some day. Good-night.”</p>
   </div>
-  <div type="level2" xml:id="chapter-xv">
+  <div type="chapter" xml:id="chapter-xv">
     <head>CHAPTER XV</head>
     <p>Mr. Rochester did, on a future occasion, explain it. It was one
     afternoon, when he chanced to meet me and Adèle in the grounds: and
@@ -5961,7 +5967,7 @@ December 1, 2020]</p>
     Sense would resist delirium: judgment would warn passion. Too
     feverish to rest, I rose as soon as day dawned.</p>
   </div>
-  <div type="level2" xml:id="chapter-xvi">
+  <div type="chapter" xml:id="chapter-xvi">
     <head>CHAPTER XVI</head>
     <p>I both wished and feared to see Mr. Rochester on the day which
     followed this sleepless night: I wanted to hear his voice again, yet
@@ -6328,7 +6334,7 @@ December 1, 2020]</p>
     a decent calm, which, had they found me unprepared, I should
     probably have been unequal to maintain, even externally.</p>
   </div>
-  <div type="level2" xml:id="chapter-xvii">
+  <div type="chapter" xml:id="chapter-xvii">
     <head>CHAPTER XVII</head>
     <p>A week passed, and no news arrived of Mr. Rochester: ten days,
     and still he did not come. Mrs. Fairfax said she should not be
@@ -7102,7 +7108,7 @@ December 1, 2020]</p>
     for Adèle. Good-night, my—” He stopped, bit his lip, and abruptly
     left me.</p>
   </div>
-  <div type="level2" xml:id="chapter-xviii">
+  <div type="chapter" xml:id="chapter-xviii">
     <head>CHAPTER XVIII</head>
     <p>Merry days were these at Thornfield Hall; and busy days too: how
     different from the first three months of stillness, monotony, and
@@ -7674,7 +7680,7 @@ December 1, 2020]</p>
     <p>“No, Sam, return to the kitchen: I am not in the least afraid.”
     Nor was I; but I was a good deal interested and excited.</p>
   </div>
-  <div type="level2" xml:id="chapter-xix">
+  <div type="chapter" xml:id="chapter-xix">
     <head>CHAPTER XIX</head>
     <p>The library looked tranquil enough as I entered it, and the
     Sibyl—if Sibyl she were—was seated snugly enough in an easy-chair at
@@ -8071,7 +8077,7 @@ December 1, 2020]</p>
     <p>He spoke cheerfully: the gay tones set my heart at ease. I was
     soon asleep.</p>
   </div>
-  <div type="level2" xml:id="chapter-xx">
+  <div type="chapter" xml:id="chapter-xx">
     <head>CHAPTER XX</head>
     <p>I had forgotten to draw my curtain, which I usually did, and also
     to let down my window-blind. The consequence was, that when the
@@ -8657,7 +8663,7 @@ December 1, 2020]</p>
     <p>“Mason got the start of you all this morning; he was gone before
     sunrise: I rose at four to see him off.”</p>
   </div>
-  <div type="level2" xml:id="chapter-xxi">
+  <div type="chapter" xml:id="chapter-xxi">
     <head>CHAPTER XXI</head>
     <p>Presentiments are strange things! and so are sympathies; and so
     are signs; and the three combined make one mystery to which humanity
@@ -9485,7 +9491,7 @@ December 1, 2020]</p>
     mouth for an instant: as it passed away she turned and left the
     room, and so did I. Neither of us had dropt a tear.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxii">
+  <div type="chapter" xml:id="chapter-xxii">
     <head>CHAPTER XXII</head>
     <p>Mr. Rochester had given me but one week’s leave of absence: yet a
     month elapsed before I quitted Gateshead. I wished to leave
@@ -9741,7 +9747,7 @@ December 1, 2020]</p>
     been kinder to me when there—and, alas! never had I loved him so
     well.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxiii">
+  <div type="chapter" xml:id="chapter-xxiii">
     <head>CHAPTER XXIII</head>
     <p>A splendid Midsummer shone over England: skies so pure, suns so
     radiant as were then seen in long succession, seldom favour even
@@ -10133,7 +10139,7 @@ December 1, 2020]</p>
     orchard had been struck by lightning in the night, and half of it
     split away.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxiv">
+  <div type="chapter" xml:id="chapter-xxiv">
     <head>CHAPTER XXIV</head>
     <p>As I rose and dressed, I thought over what had happened, and
     wondered if it were a dream. I could not be certain of the reality
@@ -10814,7 +10820,7 @@ December 1, 2020]</p>
     intervenes between man and the broad sun. I could not, in those
     days, see God for His creature: of whom I had made an idol.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxv">
+  <div type="chapter" xml:id="chapter-xxv">
     <head>CHAPTER XXV</head>
     <p>The month of courtship had wasted: its very last hours were being
     numbered. There was no putting off the day that advanced—the bridal
@@ -11289,7 +11295,7 @@ December 1, 2020]</p>
     emblem of my past life; and he, I was now to array myself to meet,
     the dread, but adored, type of my unknown future day.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxvi">
+  <div type="chapter" xml:id="chapter-xxvi">
     <head>CHAPTER XXVI</head>
     <p>Sophie came at seven to dress me: she was very long indeed in
     accomplishing her task; so long that Mr. Rochester, grown, I
@@ -11705,7 +11711,7 @@ December 1, 2020]</p>
     came into my soul; I sank in deep mire: I felt no standing; I came
     into deep waters; the floods overflowed me.”</p>
   </div>
-  <div type="level2" xml:id="chapter-xxvii">
+  <div type="chapter" xml:id="chapter-xxvii">
     <head>CHAPTER XXVII</head>
     <p>Some time in the afternoon I raised my head, and looking round
     and seeing the western sun gilding the sign of its decline on the
@@ -12713,7 +12719,7 @@ December 1, 2020]</p>
     agonised as in that hour left my lips; for never may you, like me,
     dread to be the instrument of evil to what you wholly love.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxviii">
+  <div type="chapter" xml:id="chapter-xxviii">
     <head>CHAPTER XXVIII</head>
     <p>Two days are passed. It is a summer evening; the coachman has set
     me down at a place called Whitcross; he could take me no farther for
@@ -13364,7 +13370,7 @@ December 1, 2020]</p>
     received me. I thanked God—experienced amidst unutterable exhaustion
     a glow of grateful joy—and slept.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxix">
+  <div type="chapter" xml:id="chapter-xxix">
     <head>CHAPTER XXIX</head>
     <p>The recollection of about three days and nights succeeding this
     is very dim in my mind. I can recall some sensations felt in that
@@ -13801,7 +13807,7 @@ December 1, 2020]</p>
     tea. I soon withdrew, for I had talked as much, and sat up as long,
     as my present strength would permit.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxx">
+  <div type="chapter" xml:id="chapter-xxx">
     <head>CHAPTER XXX</head>
     <p>The more I knew of the inmates of Moor House, the better I liked
     them. In a few days I had so far recovered my health that I could
@@ -14160,7 +14166,7 @@ December 1, 2020]</p>
     quitted it for distant B——. In a week, Mr. Rivers and Hannah
     repaired to the parsonage: and so the old grange was abandoned.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxxi">
+  <div type="chapter" xml:id="chapter-xxxi">
     <head>CHAPTER XXXI</head>
     <p>My home, then, when I at last find a home,—is a cottage; a little
     room with whitewashed walls and a sanded floor, containing four
@@ -14453,7 +14459,7 @@ December 1, 2020]</p>
     designated her brother “inexorable as death.” She had not
     exaggerated.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxxii">
+  <div type="chapter" xml:id="chapter-xxxii">
     <head>CHAPTER XXXII</head>
     <p>I continued the labours of the village-school as actively and
     faithfully as I could. It was truly hard work at first. Some time
@@ -14886,7 +14892,7 @@ December 1, 2020]</p>
     and being certain it could not be of much moment, I dismissed, and
     soon forgot it.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxxiii">
+  <div type="chapter" xml:id="chapter-xxxiii">
     <head>CHAPTER XXXIII</head>
     <p>When Mr. St. John went, it was beginning to snow; the whirling
     storm continued all night. The next day a keen wind brought fresh
@@ -15378,7 +15384,7 @@ December 1, 2020]</p>
     out: St. John, Diana, Mary, and I, each became possessed of a
     competency.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxxiv">
+  <div type="chapter" xml:id="chapter-xxxiv">
     <head>CHAPTER XXXIV</head>
     <p>It was near Christmas by the time all was settled: the season of
     general holiday approached. I now closed Morton school, taking care
@@ -16251,7 +16257,7 @@ December 1, 2020]</p>
     <p>And with that answer he left me. I would much rather he had
     knocked me down.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxxv">
+  <div type="chapter" xml:id="chapter-xxxv">
     <head>CHAPTER XXXV</head>
     <p>He did not leave for Cambridge the next day, as he had said he
     would. He deferred his departure a whole week, and during that time
@@ -16659,7 +16665,7 @@ December 1, 2020]</p>
     thanksgiving—took a resolve—and lay down, unscared,
     enlightened—eager but for the daylight.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxxvi">
+  <div type="chapter" xml:id="chapter-xxxvi">
     <head>CHAPTER XXXVI</head>
     <p>The daylight came. I rose at dawn. I busied myself for an hour or
     two with arranging my things in my chamber, drawers, and wardrobe,
@@ -17027,7 +17033,7 @@ December 1, 2020]</p>
     to Ferndean before dark this day, I’ll pay both you and him twice
     the hire you usually demand.”</p>
   </div>
-  <div type="level2" xml:id="chapter-xxxvii">
+  <div type="chapter" xml:id="chapter-xxxvii">
     <head>CHAPTER XXXVII</head>
     <p>The manor-house of Ferndean was a building of considerable
     antiquity, moderate size, and no architectural pretensions, deep
@@ -17795,7 +17801,7 @@ December 1, 2020]</p>
     being so much lower of stature than he, I served both for his prop
     and guide. We entered the wood, and wended homeward.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxxviiiconclusion">
+  <div type="chapter" xml:id="chapter-xxxviiiconclusion">
     <head>CHAPTER XXXVIII—CONCLUSION</head>
     <p>Reader, I married him. A quiet wedding we had: he and I, the
     parson and clerk, were alone present. When we got back from church,
@@ -17962,10 +17968,19 @@ December 1, 2020]</p>
     <p>“My Master,” he says, “has forewarned me. Daily He announces more
     distinctly,—‘Surely I come quickly!’ and hourly I more eagerly
     respond,—‘Amen; even so come, Lord Jesus!’”</p>
+  </div> 
+</div>
+</body>
+<back>
+  <div type="notes" xml:id="scapegoat-note">
+    <note>Tkacz lists <ref target="#scapegoat-ref">this 'scapegoat'</ref> as an allusion to Leviticus chapter 16, but it seems like
+    ordinary usage of the term.
+    </note>
   </div>
-  <p>*** END OF THE PROJECT GUTENBERG EBOOK JANE EYRE ***</p>
-  <p>This file should be named 1260-h.htm or 1260-h.zip</p>
-  <p>This and all associated files of various formats will be found in
+  <div type="appendix">
+    <p>*** END OF THE PROJECT GUTENBERG EBOOK JANE EYRE ***</p>
+    <p>This file should be named 1260-h.htm or 1260-h.zip</p>
+    <p>This and all associated files of various formats will be found in
   https://www.gutenberg.org/1/2/6/1260/</p>
   <p>Updated editions will replace the previous one—the old editions
   will be renamed.</p>
@@ -18269,8 +18284,8 @@ December 1, 2020]</p>
   <p>This website includes information about Project Gutenberg™,
   including how to make donations to the Project Gutenberg Literary
   Archive Foundation, how to help produce our new eBooks, and how to
-  subscribe to our email newsletter to hear about new eBooks.</p>
-</div>
-</body>
+  subscribe to our email newsletter to hear about new eBooks.</p>    
+  </div>
+</back>
 </text>
 </TEI>
