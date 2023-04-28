@@ -3,37 +3,26 @@
 <teiHeader>
   <fileDesc>
     <titleStmt>
-      <title>The Project Gutenberg eBook of Jane Eyre, by Charlotte
-Brontë</title>
+      <title>Jane Eyre an Autobiography, by Charlotte Brontë</title>
     </titleStmt>
     <publicationStmt>
     </publicationStmt>
     <sourceDesc>
-      <p>Produced by pandoc.</p>
+      <p>Converted to TEI via Pandoc from Project Gutenberg eBook #1260 (12/01/2020) update.</p>
     </sourceDesc>
   </fileDesc>
+  <encodingDesc>
+    <refsDecl>
+      <cRefPattern matchPattern="(?:\d|I{1,3})?\s?\w{2,}\.?\s*\d{1,}\:\d{1,}-?,?\d{0,2}(?:,\d{0,2}){0,2}"> <!-- https://www.regexlib.com/REDetails.aspx?regexp_id=225 -->
+      </cRefPattern>
+    </refsDecl>
+  </encodingDesc>
 </teiHeader>
 <text>
-<body>
-<p>The Project Gutenberg eBook of Jane Eyre, by Charlotte Brontë</p>
-<p>This eBook is for the use of anyone anywhere in the United States and
-most other parts of the world at no cost and with almost no restrictions
-whatsoever. You may copy it, give it away or re-use it under the terms
-of the Project Gutenberg License included with this eBook or online at
-<ref target="https://www.gutenberg.org">www.gutenberg.org</ref>. If you
-are not located in the United States, you will have to check the laws of
-the country where you are located before using this eBook.</p>
-<p>Title: Jane Eyre<lb />an Autobiography</p>
-<p>Author: Charlotte Brontë</p>
-<p>Release Date: March, 1998 [eBook #1260]<lb />[Most recently updated:
-December 1, 2020]</p>
-<p>Language: English</p>
-<p>Character set encoding: UTF-8</p>
-<p>Produced by: David Price</p>
-<p>*** START OF THE PROJECT GUTENBERG EBOOK JANE EYRE ***</p>
-<div type="level1" xml:id="jane-eyre-an-autobiography">
+  <front>
+<titlePage>    
   <head>JANE EYRE<lb />AN AUTOBIOGRAPHY</head>
-  <div type="level2" xml:id="by-charlotte-brontë">
+  <div type="lev2" xml:id="by-charlotte-brontë">
     <head>by Charlotte Brontë</head>
     <p><hi rendition="simple:italic">ILLUSTRATED BY F. H.
     TOWNSEND</hi></p>
@@ -48,7 +37,8 @@ December 1, 2020]</p>
     <p>BY<lb />THE AUTHOR</p>
     <milestone unit="undefined" type="separator" rendition="line" />
   </div>
-  <div type="level2" xml:id="preface">
+</titlePage>
+  <div type="preface" xml:id="preface">
     <head>PREFACE</head>
     <p>A preface to the first edition of “Jane Eyre” being unnecessary,
     I gave none: this second edition demands a few words both of
@@ -131,7 +121,7 @@ December 1, 2020]</p>
     <p><hi rendition="simple:italic">December</hi>
     21<hi rendition="simple:italic">st</hi>, 1847.</p>
   </div>
-  <div type="level2" xml:id="note-to-the-third-edition">
+  <div type="preface" xml:id="note-to-the-third-edition">
     <head>NOTE TO THE THIRD EDITION</head>
     <p>I avail myself of the opportunity which a third edition of “Jane
     Eyre” affords me, of again addressing a word to the Public, to
@@ -145,7 +135,10 @@ December 1, 2020]</p>
     <p><hi rendition="simple:italic">April</hi>
     13<hi rendition="simple:italic">th</hi>, 1848.</p>
   </div>
-  <div type="level2" xml:id="chapter-i">
+  </front>
+  <body>
+<div type="level1" xml:id="jane-eyre-an-autobiography">    
+  <div type="chapter" xml:id="chapter-i">
     <head>CHAPTER I</head>
     <p>There was no possibility of taking a walk that day. We had been
     wandering, indeed, in the leafless shrubbery an hour in the morning;
@@ -331,7 +324,7 @@ December 1, 2020]</p>
     <p>“Take her away to the red-room, and lock her in there.” Four
     hands were immediately laid upon me, and I was borne upstairs.</p>
   </div>
-  <div type="level2" xml:id="chapter-ii">
+  <div type="chapter" xml:id="chapter-ii">
     <head>CHAPTER II</head>
     <p>I resisted all the way: a new thing for me, and a circumstance
     which greatly strengthened the bad opinion Bessie and Miss Abbot
@@ -365,7 +358,7 @@ December 1, 2020]</p>
     Miss Abbot stood with folded arms, looking darkly and doubtfully on
     my face, as incredulous of my sanity.</p>
     <p>“She never did so before,” at last said Bessie, turning to the
-    <seg type="idiom" source="#1Sam25">Abigail.</seg></p>
+    <seg type="idiom" source="#1Sam25" xml:id="abigail-ref-1">Abigail.</seg></p>
     <p>“But it was always in her,” was the reply. “I’ve told Missis
     often my opinion about the child, and Missis agreed with me. She’s
     an underhand little thing: I never saw a girl of her age with so
@@ -500,7 +493,7 @@ December 1, 2020]</p>
     child—though equally dependent and friendless—Mrs. Reed would have
     endured my presence more complacently; her children would have
     entertained for me more of the cordiality of fellow-feeling; the
-    servants would have been less prone to make me the <seg type="idiom" source="#Lev16">scapegoat</seg> of the
+    servants would have been less prone to make me the <seg type="idiom" source="#Lev16" xml:id="scapegoat-ref">scapegoat</seg> of the
     nursery.</p>
     <p>Daylight began to forsake the red-room; it was past four o’clock,
     and the beclouded afternoon was tending to drear twilight. I heard
@@ -592,7 +585,7 @@ December 1, 2020]</p>
     after she was gone, I suppose I had a species of fit:
     unconsciousness closed the scene.</p>
   </div>
-  <div type="level2" xml:id="chapter-iii">
+  <div type="chapter" xml:id="chapter-iii">
     <head>CHAPTER III</head>
     <p>The next thing I remember is, waking up with a feeling as if I
     had had a frightful nightmare, and seeing before me a terrible red
@@ -914,7 +907,7 @@ December 1, 2020]</p>
     <p>“So could I—with a roast onion. Come, we’ll go down.” They
     went.</p>
   </div>
-  <div type="level2" xml:id="chapter-iv">
+  <div type="chapter" xml:id="chapter-iv">
     <head>CHAPTER IV</head>
     <p>From my discourse with Mr. Lloyd, and from the above reported
     conference between Bessie and Abbot, I gathered enough of hope to
@@ -1481,7 +1474,7 @@ December 1, 2020]</p>
     me some of her sweetest songs. Even for me life had its gleams of
     sunshine.</p>
   </div>
-  <div type="level2" xml:id="chapter-v">
+  <div type="chapter" xml:id="chapter-v">
     <head>CHAPTER V</head>
     <p>Five o’clock had hardly struck on the morning of the 19th of
     January, when Bessie brought a candle into my closet and found me
@@ -1967,7 +1960,7 @@ December 1, 2020]</p>
     then study; then the glass of water and the piece of oat-cake,
     prayers, and bed. Such was my first day at Lowood.</p>
   </div>
-  <div type="level2" xml:id="chapter-vi">
+  <div type="chapter" xml:id="chapter-vi">
     <head>CHAPTER VI</head>
     <p>The next day commenced as before, getting up and dressing by
     rushlight; but this morning we were obliged to dispense with the
@@ -2245,7 +2238,7 @@ December 1, 2020]</p>
     <p>Helen sighed as her reverie fled, and getting up, obeyed the
     monitor without reply as without delay.</p>
   </div>
-  <div type="level2" xml:id="chapter-vii">
+  <div type="chapter" xml:id="chapter-vii">
     <head>CHAPTER VII</head>
     <p>My first quarter at Lowood seemed an age; and not the golden age
     either; it comprised an irksome struggle with difficulties in
@@ -2587,7 +2580,7 @@ December 1, 2020]</p>
     clearest planet; and eyes like Miss Scatcherd’s can only see those
     minute defects, and are blind to the full brightness of the orb.</p>
   </div>
-  <div type="level2" xml:id="chapter-viii">
+  <div type="chapter" xml:id="chapter-viii">
     <head>CHAPTER VIII</head>
     <p>Ere the half-hour ended, five o’clock struck; school was
     dismissed, and all were gone into the refectory to tea. I now
@@ -2875,7 +2868,7 @@ December 1, 2020]</p>
     <p>I would not now have exchanged Lowood with all its privations for
     Gateshead and its daily luxuries.</p>
   </div>
-  <div type="level2" xml:id="chapter-ix">
+  <div type="chapter" xml:id="chapter-ix">
     <head>CHAPTER IX</head>
     <p>But the privations, or rather the hardships, of Lowood lessened.
     Spring drew on: she was indeed already come; the frosts of winter
@@ -3181,7 +3174,7 @@ December 1, 2020]</p>
     marble tablet marks the spot, inscribed with her name, and the word
     “Resurgam.”</p>
   </div>
-  <div type="level2" xml:id="chapter-x">
+  <div type="chapter" xml:id="chapter-x">
     <head>CHAPTER X</head>
     <p>Hitherto I have recorded in detail the events of my insignificant
     existence: to the first ten years of my life I have given almost as
@@ -3596,7 +3589,7 @@ December 1, 2020]</p>
     vehicle which was to bear me to new duties and a new life in the
     unknown environs of Millcote.</p>
   </div>
-  <div type="level2" xml:id="chapter-xi">
+  <div type="chapter" xml:id="chapter-xi">
     <head>CHAPTER XI</head>
     <p>A new chapter in a novel is something like a new scene in a play;
     and when I draw up the curtain this time, reader, you must fancy you
@@ -4199,7 +4192,7 @@ December 1, 2020]</p>
     <p>We found dinner ready, and waiting for us in Mrs. Fairfax’s
     room.</p>
   </div>
-  <div type="level2" xml:id="chapter-xii">
+  <div type="chapter" xml:id="chapter-xii">
     <head>CHAPTER XII</head>
     <p>The promise of a smooth career, which my first calm introduction
     to Thornfield Hall seemed to pledge, was not belied on a longer
@@ -4592,7 +4585,7 @@ December 1, 2020]</p>
     was now with Mr. Rochester: then she hurried out to give orders
     about tea, and I went upstairs to take off my things.</p>
   </div>
-  <div type="level2" xml:id="chapter-xiii">
+  <div type="chapter" xml:id="chapter-xiii">
     <head>CHAPTER XIII</head>
     <p>Mr. Rochester, it seems, by the surgeon’s orders, went to bed
     early that night; nor did he rise soon next morning. When he did
@@ -5012,7 +5005,7 @@ December 1, 2020]</p>
     she knew was chiefly from conjecture. It was evident, indeed, that
     she wished me to drop the subject, which I did accordingly.</p>
   </div>
-  <div type="level2" xml:id="chapter-xiv">
+  <div type="chapter" xml:id="chapter-xiv">
     <head>CHAPTER XIV</head>
     <p>For several subsequent days I saw little of Mr. Rochester. In the
     mornings he seemed much engaged with business, and, in the
@@ -5490,7 +5483,7 @@ December 1, 2020]</p>
     Roman Catholic principle of expiating numerous sins, great or small,
     by one good work. I’ll explain all this some day. Good-night.”</p>
   </div>
-  <div type="level2" xml:id="chapter-xv">
+  <div type="chapter" xml:id="chapter-xv">
     <head>CHAPTER XV</head>
     <p>Mr. Rochester did, on a future occasion, explain it. It was one
     afternoon, when he chanced to meet me and Adèle in the grounds: and
@@ -5961,7 +5954,7 @@ December 1, 2020]</p>
     Sense would resist delirium: judgment would warn passion. Too
     feverish to rest, I rose as soon as day dawned.</p>
   </div>
-  <div type="level2" xml:id="chapter-xvi">
+  <div type="chapter" xml:id="chapter-xvi">
     <head>CHAPTER XVI</head>
     <p>I both wished and feared to see Mr. Rochester on the day which
     followed this sleepless night: I wanted to hear his voice again, yet
@@ -6328,7 +6321,7 @@ December 1, 2020]</p>
     a decent calm, which, had they found me unprepared, I should
     probably have been unequal to maintain, even externally.</p>
   </div>
-  <div type="level2" xml:id="chapter-xvii">
+  <div type="chapter" xml:id="chapter-xvii">
     <head>CHAPTER XVII</head>
     <p>A week passed, and no news arrived of Mr. Rochester: ten days,
     and still he did not come. Mrs. Fairfax said she should not be
@@ -6538,7 +6531,7 @@ December 1, 2020]</p>
     stage of projection, and the cook hung over her crucibles in a frame
     of mind and body threatening spontaneous combustion. In the
     servants’ hall two coachmen and three gentlemen’s gentlemen stood or
-    sat round the fire; the <seg type="idiom" source="#1Sam25">abigails,</seg> I suppose, were upstairs with
+    sat round the fire; the <seg type="idiom" source="#1Sam25" xml:id="abigail-ref-2">abigails,</seg> I suppose, were upstairs with
     their mistresses; the new servants, that had been hired from
     Millcote, were bustling about everywhere. Threading this chaos, I at
     last reached the larder; there I took possession of a cold chicken,
@@ -7102,7 +7095,7 @@ December 1, 2020]</p>
     for Adèle. Good-night, my—” He stopped, bit his lip, and abruptly
     left me.</p>
   </div>
-  <div type="level2" xml:id="chapter-xviii">
+  <div type="chapter" xml:id="chapter-xviii">
     <head>CHAPTER XVIII</head>
     <p>Merry days were these at Thornfield Hall; and busy days too: how
     different from the first three months of stillness, monotony, and
@@ -7132,7 +7125,7 @@ December 1, 2020]</p>
     and certain wardrobes of the third storey were ransacked, and their
     contents, in the shape of brocaded and hooped petticoats, satin
     sacques, black modes, lace lappets, &amp;c., were brought down in
-    armfuls by the <seg type="idiom" source="#1Sam25">abigails;</seg> then a selection was made, and such things
+    armfuls by the <seg type="idiom" source="#1Sam25" xml:id="abigail-ref-3">abigails;</seg> then a selection was made, and such things
     as were chosen were carried to the boudoir within the
     drawing-room.</p>
     <p>Meantime, Mr. Rochester had again summoned the ladies round him,
@@ -7674,7 +7667,7 @@ December 1, 2020]</p>
     <p>“No, Sam, return to the kitchen: I am not in the least afraid.”
     Nor was I; but I was a good deal interested and excited.</p>
   </div>
-  <div type="level2" xml:id="chapter-xix">
+  <div type="chapter" xml:id="chapter-xix">
     <head>CHAPTER XIX</head>
     <p>The library looked tranquil enough as I entered it, and the
     Sibyl—if Sibyl she were—was seated snugly enough in an easy-chair at
@@ -8071,7 +8064,7 @@ December 1, 2020]</p>
     <p>He spoke cheerfully: the gay tones set my heart at ease. I was
     soon asleep.</p>
   </div>
-  <div type="level2" xml:id="chapter-xx">
+  <div type="chapter" xml:id="chapter-xx">
     <head>CHAPTER XX</head>
     <p>I had forgotten to draw my curtain, which I usually did, and also
     to let down my window-blind. The consequence was, that when the
@@ -8657,7 +8650,7 @@ December 1, 2020]</p>
     <p>“Mason got the start of you all this morning; he was gone before
     sunrise: I rose at four to see him off.”</p>
   </div>
-  <div type="level2" xml:id="chapter-xxi">
+  <div type="chapter" xml:id="chapter-xxi">
     <head>CHAPTER XXI</head>
     <p>Presentiments are strange things! and so are sympathies; and so
     are signs; and the three combined make one mystery to which humanity
@@ -9485,7 +9478,7 @@ December 1, 2020]</p>
     mouth for an instant: as it passed away she turned and left the
     room, and so did I. Neither of us had dropt a tear.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxii">
+  <div type="chapter" xml:id="chapter-xxii">
     <head>CHAPTER XXII</head>
     <p>Mr. Rochester had given me but one week’s leave of absence: yet a
     month elapsed before I quitted Gateshead. I wished to leave
@@ -9741,7 +9734,7 @@ December 1, 2020]</p>
     been kinder to me when there—and, alas! never had I loved him so
     well.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxiii">
+  <div type="chapter" xml:id="chapter-xxiii">
     <head>CHAPTER XXIII</head>
     <p>A splendid Midsummer shone over England: skies so pure, suns so
     radiant as were then seen in long succession, seldom favour even
@@ -10133,7 +10126,7 @@ December 1, 2020]</p>
     orchard had been struck by lightning in the night, and half of it
     split away.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxiv">
+  <div type="chapter" xml:id="chapter-xxiv">
     <head>CHAPTER XXIV</head>
     <p>As I rose and dressed, I thought over what had happened, and
     wondered if it were a dream. I could not be certain of the reality
@@ -10814,7 +10807,7 @@ December 1, 2020]</p>
     intervenes between man and the broad sun. I could not, in those
     days, see God for His creature: of whom I had made an idol.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxv">
+  <div type="chapter" xml:id="chapter-xxv">
     <head>CHAPTER XXV</head>
     <p>The month of courtship had wasted: its very last hours were being
     numbered. There was no putting off the day that advanced—the bridal
@@ -11289,7 +11282,7 @@ December 1, 2020]</p>
     emblem of my past life; and he, I was now to array myself to meet,
     the dread, but adored, type of my unknown future day.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxvi">
+  <div type="chapter" xml:id="chapter-xxvi">
     <head>CHAPTER XXVI</head>
     <p>Sophie came at seven to dress me: she was very long indeed in
     accomplishing her task; so long that Mr. Rochester, grown, I
@@ -11705,7 +11698,7 @@ December 1, 2020]</p>
     came into my soul; I sank in deep mire: I felt no standing; I came
     into deep waters; the floods overflowed me.”</p>
   </div>
-  <div type="level2" xml:id="chapter-xxvii">
+  <div type="chapter" xml:id="chapter-xxvii">
     <head>CHAPTER XXVII</head>
     <p>Some time in the afternoon I raised my head, and looking round
     and seeing the western sun gilding the sign of its decline on the
@@ -12713,7 +12706,7 @@ December 1, 2020]</p>
     agonised as in that hour left my lips; for never may you, like me,
     dread to be the instrument of evil to what you wholly love.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxviii">
+  <div type="chapter" xml:id="chapter-xxviii">
     <head>CHAPTER XXVIII</head>
     <p>Two days are passed. It is a summer evening; the coachman has set
     me down at a place called Whitcross; he could take me no farther for
@@ -13364,7 +13357,7 @@ December 1, 2020]</p>
     received me. I thanked God—experienced amidst unutterable exhaustion
     a glow of grateful joy—and slept.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxix">
+  <div type="chapter" xml:id="chapter-xxix">
     <head>CHAPTER XXIX</head>
     <p>The recollection of about three days and nights succeeding this
     is very dim in my mind. I can recall some sensations felt in that
@@ -13801,7 +13794,7 @@ December 1, 2020]</p>
     tea. I soon withdrew, for I had talked as much, and sat up as long,
     as my present strength would permit.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxx">
+  <div type="chapter" xml:id="chapter-xxx">
     <head>CHAPTER XXX</head>
     <p>The more I knew of the inmates of Moor House, the better I liked
     them. In a few days I had so far recovered my health that I could
@@ -14160,7 +14153,7 @@ December 1, 2020]</p>
     quitted it for distant B——. In a week, Mr. Rivers and Hannah
     repaired to the parsonage: and so the old grange was abandoned.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxxi">
+  <div type="chapter" xml:id="chapter-xxxi">
     <head>CHAPTER XXXI</head>
     <p>My home, then, when I at last find a home,—is a cottage; a little
     room with whitewashed walls and a sanded floor, containing four
@@ -14453,7 +14446,7 @@ December 1, 2020]</p>
     designated her brother “inexorable as death.” She had not
     exaggerated.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxxii">
+  <div type="chapter" xml:id="chapter-xxxii">
     <head>CHAPTER XXXII</head>
     <p>I continued the labours of the village-school as actively and
     faithfully as I could. It was truly hard work at first. Some time
@@ -14886,7 +14879,7 @@ December 1, 2020]</p>
     and being certain it could not be of much moment, I dismissed, and
     soon forgot it.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxxiii">
+  <div type="chapter" xml:id="chapter-xxxiii">
     <head>CHAPTER XXXIII</head>
     <p>When Mr. St. John went, it was beginning to snow; the whirling
     storm continued all night. The next day a keen wind brought fresh
@@ -15378,7 +15371,7 @@ December 1, 2020]</p>
     out: St. John, Diana, Mary, and I, each became possessed of a
     competency.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxxiv">
+  <div type="chapter" xml:id="chapter-xxxiv">
     <head>CHAPTER XXXIV</head>
     <p>It was near Christmas by the time all was settled: the season of
     general holiday approached. I now closed Morton school, taking care
@@ -16200,7 +16193,7 @@ December 1, 2020]</p>
     mien.</p>
     <p>“Forgive me the words, St. John; but it is your own fault that I
     have been roused to speak so unguardedly. You have introduced a
-    topic on which our natures are <seg type="idiom" source="#Matt10.35 #Gal5.20">at variance<\seg>—a topic we should never
+    topic on which our natures are <seg new type="idiom" source="#Matt10.35 #Gal5.20">at variance<\seg>—a topic we should never
     discuss: the very name of love is an apple of discord between us. If
     the reality were required, what should we do? How should we feel? My
     dear cousin, abandon your scheme of marriage—forget it.”</p>
@@ -16251,7 +16244,7 @@ December 1, 2020]</p>
     <p>And with that answer he left me. I would much rather he had
     knocked me down.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxxv">
+  <div type="chapter" xml:id="chapter-xxxv">
     <head>CHAPTER XXXV</head>
     <p>He did not leave for Cambridge the next day, as he had said he
     would. He deferred his departure a whole week, and during that time
@@ -16659,7 +16652,7 @@ December 1, 2020]</p>
     thanksgiving—took a resolve—and lay down, unscared,
     enlightened—eager but for the daylight.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxxvi">
+  <div type="chapter" xml:id="chapter-xxxvi">
     <head>CHAPTER XXXVI</head>
     <p>The daylight came. I rose at dawn. I busied myself for an hour or
     two with arranging my things in my chamber, drawers, and wardrobe,
@@ -16695,7 +16688,7 @@ December 1, 2020]</p>
     <hi rendition="simple:italic">me</hi>—not in the external world. I
     asked was it a mere nervous impression—a delusion? I could not
     conceive or believe: it was more like an inspiration. The wondrous
-    shock of feeling had come like the <seg type="allusion" source="#Acts16.26">earthquake which shook the
+    shock of feeling had come like the <seg new type="allusion" source="#Acts16.26">earthquake which shook the
     foundations of Paul and Silas’s prison; it had opened the doors of
     the soul’s cell and loosed its bands—it had wakened it out of its
     sleep, whence it sprang trembling, listening, aghast; then vibrated
@@ -17027,7 +17020,7 @@ December 1, 2020]</p>
     to Ferndean before dark this day, I’ll pay both you and him twice
     the hire you usually demand.”</p>
   </div>
-  <div type="level2" xml:id="chapter-xxxvii">
+  <div type="chapter" xml:id="chapter-xxxvii">
     <head>CHAPTER XXXVII</head>
     <p>The manor-house of Ferndean was a building of considerable
     antiquity, moderate size, and no architectural pretensions, deep
@@ -17795,7 +17788,7 @@ December 1, 2020]</p>
     being so much lower of stature than he, I served both for his prop
     and guide. We entered the wood, and wended homeward.</p>
   </div>
-  <div type="level2" xml:id="chapter-xxxviiiconclusion">
+  <div type="chapter" xml:id="chapter-xxxviiiconclusion">
     <head>CHAPTER XXXVIII—CONCLUSION</head>
     <p>Reader, I married him. A quiet wedding we had: he and I, the
     parson and clerk, were alone present. When we got back from church,
@@ -17962,315 +17955,23 @@ December 1, 2020]</p>
     <p>“My Master,” he says, “has forewarned me. Daily He announces more
     distinctly,—‘Surely I come quickly!’ and hourly I more eagerly
     respond,—‘Amen; even so come, Lord Jesus!’”</p>
-  </div>
-  <p>*** END OF THE PROJECT GUTENBERG EBOOK JANE EYRE ***</p>
-  <p>This file should be named 1260-h.htm or 1260-h.zip</p>
-  <p>This and all associated files of various formats will be found in
-  https://www.gutenberg.org/1/2/6/1260/</p>
-  <p>Updated editions will replace the previous one—the old editions
-  will be renamed.</p>
-  <p>Creating the works from print editions not protected by U.S.
-  copyright law means that no one owns a United States copyright in
-  these works, so the Foundation (and you!) can copy and distribute it
-  in the United States without permission and without paying copyright
-  royalties. Special rules, set forth in the General Terms of Use part
-  of this license, apply to copying and distributing Project Gutenberg™
-  electronic works to protect the PROJECT GUTENBERG™ concept and
-  trademark. Project Gutenberg is a registered trademark, and may not be
-  used if you charge for an eBook, except by following the terms of the
-  trademark license, including paying royalties for use of the Project
-  Gutenberg trademark. If you do not charge anything for copies of this
-  eBook, complying with the trademark license is very easy. You may use
-  this eBook for nearly any purpose such as creation of derivative
-  works, reports, performances and research. Project Gutenberg eBooks
-  may be modified and printed and given away--you may do practically
-  ANYTHING in the United States with eBooks not protected by U.S.
-  copyright law. Redistribution is subject to the trademark license,
-  especially commercial redistribution.</p>
-  <p>START: FULL LICENSE<lb />THE FULL PROJECT GUTENBERG
-  LICENSE<lb />PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS
-  WORK</p>
-  <p>To protect the Project Gutenberg™ mission of promoting the free
-  distribution of electronic works, by using or distributing this work
-  (or any other work associated in any way with the phrase “Project
-  Gutenberg”), you agree to comply with all the terms of the Full
-  Project Gutenberg™ License available with this file or online at
-  www.gutenberg.org/license.</p>
-  <p>Section 1. General Terms of Use and Redistributing Project
-  Gutenberg™ electronic works</p>
-  <p>1.A. By reading or using any part of this Project Gutenberg™
-  electronic work, you indicate that you have read, understand, agree to
-  and accept all the terms of this license and intellectual property
-  (trademark/copyright) agreement. If you do not agree to abide by all
-  the terms of this agreement, you must cease using and return or
-  destroy all copies of Project Gutenberg™ electronic works in your
-  possession. If you paid a fee for obtaining a copy of or access to a
-  Project Gutenberg™ electronic work and you do not agree to be bound by
-  the terms of this agreement, you may obtain a refund from the person
-  or entity to whom you paid the fee as set forth in paragraph
-  1.E.8.</p>
-  <p>1.B. “Project Gutenberg” is a registered trademark. It may only be
-  used on or associated in any way with an electronic work by people who
-  agree to be bound by the terms of this agreement. There are a few
-  things that you can do with most Project Gutenberg™ electronic works
-  even without complying with the full terms of this agreement. See
-  paragraph 1.C below. There are a lot of things you can do with Project
-  Gutenberg™ electronic works if you follow the terms of this agreement
-  and help preserve free future access to Project Gutenberg™ electronic
-  works. See paragraph 1.E below.</p>
-  <p>1.C. The Project Gutenberg Literary Archive Foundation (“the
-  Foundation” or PGLAF), owns a compilation copyright in the collection
-  of Project Gutenberg™ electronic works. Nearly all the individual
-  works in the collection are in the public domain in the United States.
-  If an individual work is unprotected by copyright law in the United
-  States and you are located in the United States, we do not claim a
-  right to prevent you from copying, distributing, performing,
-  displaying or creating derivative works based on the work as long as
-  all references to Project Gutenberg are removed. Of course, we hope
-  that you will support the Project Gutenberg™ mission of promoting free
-  access to electronic works by freely sharing Project Gutenberg™ works
-  in compliance with the terms of this agreement for keeping the Project
-  Gutenberg™ name associated with the work. You can easily comply with
-  the terms of this agreement by keeping this work in the same format
-  with its attached full Project Gutenberg™ License when you share it
-  without charge with others.</p>
-  <p>1.D. The copyright laws of the place where you are located also
-  govern what you can do with this work. Copyright laws in most
-  countries are in a constant state of change. If you are outside the
-  United States, check the laws of your country in addition to the terms
-  of this agreement before downloading, copying, displaying, performing,
-  distributing or creating derivative works based on this work or any
-  other Project Gutenberg™ work. The Foundation makes no representations
-  concerning the copyright status of any work in any country other than
-  the United States.</p>
-  <p>1.E. Unless you have removed all references to Project
-  Gutenberg:</p>
-  <p>1.E.1. The following sentence, with active links to, or other
-  immediate access to, the full Project Gutenberg™ License must appear
-  prominently whenever any copy of a Project Gutenberg™ work (any work
-  on which the phrase “Project Gutenberg” appears, or with which the
-  phrase “Project Gutenberg” is associated) is accessed, displayed,
-  performed, viewed, copied or distributed:</p>
-  <quote>
-    <p>This eBook is for the use of anyone anywhere in the United States
-    and most other parts of the world at no cost and with almost no
-    restrictions whatsoever. You may copy it, give it away or re-use it
-    under the terms of the Project Gutenberg License included with this
-    eBook or online at
-    <ref target="https://www.gutenberg.org">www.gutenberg.org</ref>. If
-    you are not located in the United States, you will have to check the
-    laws of the country where you are located before using this
-    eBook.</p>
-  </quote>
-  <p>1.E.2. If an individual Project Gutenberg™ electronic work is
-  derived from texts not protected by U.S. copyright law (does not
-  contain a notice indicating that it is posted with permission of the
-  copyright holder), the work can be copied and distributed to anyone in
-  the United States without paying any fees or charges. If you are
-  redistributing or providing access to a work with the phrase “Project
-  Gutenberg” associated with or appearing on the work, you must comply
-  either with the requirements of paragraphs 1.E.1 through 1.E.7 or
-  obtain permission for the use of the work and the Project Gutenberg™
-  trademark as set forth in paragraphs 1.E.8 or 1.E.9.</p>
-  <p>1.E.3. If an individual Project Gutenberg™ electronic work is
-  posted with the permission of the copyright holder, your use and
-  distribution must comply with both paragraphs 1.E.1 through 1.E.7 and
-  any additional terms imposed by the copyright holder. Additional terms
-  will be linked to the Project Gutenberg™ License for all works posted
-  with the permission of the copyright holder found at the beginning of
-  this work.</p>
-  <p>1.E.4. Do not unlink or detach or remove the full Project
-  Gutenberg™ License terms from this work, or any files containing a
-  part of this work or any other work associated with Project
-  Gutenberg™.</p>
-  <p>1.E.5. Do not copy, display, perform, distribute or redistribute
-  this electronic work, or any part of this electronic work, without
-  prominently displaying the sentence set forth in paragraph 1.E.1 with
-  active links or immediate access to the full terms of the Project
-  Gutenberg™ License.</p>
-  <p>1.E.6. You may convert to and distribute this work in any binary,
-  compressed, marked up, nonproprietary or proprietary form, including
-  any word processing or hypertext form. However, if you provide access
-  to or distribute copies of a Project Gutenberg™ work in a format other
-  than “Plain Vanilla ASCII” or other format used in the official
-  version posted on the official Project Gutenberg™ website
-  (www.gutenberg.org), you must, at no additional cost, fee or expense
-  to the user, provide a copy, a means of exporting a copy, or a means
-  of obtaining a copy upon request, of the work in its original “Plain
-  Vanilla ASCII” or other form. Any alternate format must include the
-  full Project Gutenberg™ License as specified in paragraph 1.E.1.</p>
-  <p>1.E.7. Do not charge a fee for access to, viewing, displaying,
-  performing, copying or distributing any Project Gutenberg™ works
-  unless you comply with paragraph 1.E.8 or 1.E.9.</p>
-  <p>1.E.8. You may charge a reasonable fee for copies of or providing
-  access to or distributing Project Gutenberg™ electronic works provided
-  that:</p>
-  <p>• You pay a royalty fee of 20% of the gross profits you derive from
-  the use of Project Gutenberg™ works calculated using the method you
-  already use to calculate your applicable taxes. The fee is owed to the
-  owner of the Project Gutenberg™ trademark, but he has agreed to donate
-  royalties under this paragraph to the Project Gutenberg Literary
-  Archive Foundation. Royalty payments must be paid within 60 days
-  following each date on which you prepare (or are legally required to
-  prepare) your periodic tax returns. Royalty payments should be clearly
-  marked as such and sent to the Project Gutenberg Literary Archive
-  Foundation at the address specified in Section 4, “Information about
-  donations to the Project Gutenberg Literary Archive Foundation.”</p>
-  <p>• You provide a full refund of any money paid by a user who
-  notifies you in writing (or by e-mail) within 30 days of receipt that
-  s/he does not agree to the terms of the full Project Gutenberg™
-  License. You must require such a user to return or destroy all copies
-  of the works possessed in a physical medium and discontinue all use of
-  and all access to other copies of Project Gutenberg™ works.</p>
-  <p>• You provide, in accordance with paragraph 1.F.3, a full refund of
-  any money paid for a work or a replacement copy, if a defect in the
-  electronic work is discovered and reported to you within 90 days of
-  receipt of the work.</p>
-  <p>• You comply with all other terms of this agreement for free
-  distribution of Project Gutenberg™ works.</p>
-  <p>1.E.9. If you wish to charge a fee or distribute a Project
-  Gutenberg™ electronic work or group of works on different terms than
-  are set forth in this agreement, you must obtain permission in writing
-  from the Project Gutenberg Literary Archive Foundation, the manager of
-  the Project Gutenberg™ trademark. Contact the Foundation as set forth
-  in Section 3 below.</p>
-  <p>1.F.</p>
-  <p>1.F.1. Project Gutenberg volunteers and employees expend
-  considerable effort to identify, do copyright research on, transcribe
-  and proofread works not protected by U.S. copyright law in creating
-  the Project Gutenberg™ collection. Despite these efforts, Project
-  Gutenberg™ electronic works, and the medium on which they may be
-  stored, may contain “Defects,” such as, but not limited to,
-  incomplete, inaccurate or corrupt data, transcription errors, a
-  copyright or other intellectual property infringement, a defective or
-  damaged disk or other medium, a computer virus, or computer codes that
-  damage or cannot be read by your equipment.</p>
-  <p>1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the
-  “Right of Replacement or Refund” described in paragraph 1.F.3, the
-  Project Gutenberg Literary Archive Foundation, the owner of the
-  Project Gutenberg™ trademark, and any other party distributing a
-  Project Gutenberg™ electronic work under this agreement, disclaim all
-  liability to you for damages, costs and expenses, including legal
-  fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
-  LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
-  PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
-  TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
-  LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
-  INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
-  DAMAGE.</p>
-  <p>1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
-  defect in this electronic work within 90 days of receiving it, you can
-  receive a refund of the money (if any) you paid for it by sending a
-  written explanation to the person you received the work from. If you
-  received the work on a physical medium, you must return the medium
-  with your written explanation. The person or entity that provided you
-  with the defective work may elect to provide a replacement copy in
-  lieu of a refund. If you received the work electronically, the person
-  or entity providing it to you may choose to give you a second
-  opportunity to receive the work electronically in lieu of a refund. If
-  the second copy is also defective, you may demand a refund in writing
-  without further opportunities to fix the problem.</p>
-  <p>1.F.4. Except for the limited right of replacement or refund set
-  forth in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH
-  NO OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
-  LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY
-  PURPOSE.</p>
-  <p>1.F.5. Some states do not allow disclaimers of certain implied
-  warranties or the exclusion or limitation of certain types of damages.
-  If any disclaimer or limitation set forth in this agreement violates
-  the law of the state applicable to this agreement, the agreement shall
-  be interpreted to make the maximum disclaimer or limitation permitted
-  by the applicable state law. The invalidity or unenforceability of any
-  provision of this agreement shall not void the remaining
-  provisions.</p>
-  <p>1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation,
-  the trademark owner, any agent or employee of the Foundation, anyone
-  providing copies of Project Gutenberg™ electronic works in accordance
-  with this agreement, and any volunteers associated with the
-  production, promotion and distribution of Project Gutenberg™
-  electronic works, harmless from all liability, costs and expenses,
-  including legal fees, that arise directly or indirectly from any of
-  the following which you do or cause to occur: (a) distribution of this
-  or any Project Gutenberg™ work, (b) alteration, modification, or
-  additions or deletions to any Project Gutenberg™ work, and (c) any
-  Defect you cause.</p>
-  <p>Section 2. Information about the Mission of Project Gutenberg™</p>
-  <p>Project Gutenberg™ is synonymous with the free distribution of
-  electronic works in formats readable by the widest variety of
-  computers including obsolete, old, middle-aged and new computers. It
-  exists because of the efforts of hundreds of volunteers and donations
-  from people in all walks of life.</p>
-  <p>Volunteers and financial support to provide volunteers with the
-  assistance they need are critical to reaching Project Gutenberg™’s
-  goals and ensuring that the Project Gutenberg™ collection will remain
-  freely available for generations to come. In 2001, the Project
-  Gutenberg Literary Archive Foundation was created to provide a secure
-  and permanent future for Project Gutenberg™ and future generations. To
-  learn more about the Project Gutenberg Literary Archive Foundation and
-  how your efforts and donations can help, see Sections 3 and 4 and the
-  Foundation information page at www.gutenberg.org.</p>
-  <p>Section 3. Information about the Project Gutenberg Literary Archive
-  Foundation</p>
-  <p>The Project Gutenberg Literary Archive Foundation is a non-profit
-  501(c)(3) educational corporation organized under the laws of the
-  state of Mississippi and granted tax exempt status by the Internal
-  Revenue Service. The Foundation’s EIN or federal tax identification
-  number is 64-6221541. Contributions to the Project Gutenberg Literary
-  Archive Foundation are tax deductible to the full extent permitted by
-  U.S. federal laws and your state’s laws.</p>
-  <p>The Foundation’s business office is located at 809 North 1500 West,
-  Salt Lake City, UT 84116, (801) 596-1887. Email contact links and up
-  to date contact information can be found at the Foundation’s website
-  and official page at www.gutenberg.org/contact</p>
-  <p>Section 4. Information about Donations to the Project Gutenberg
-  Literary Archive Foundation</p>
-  <p>Project Gutenberg™ depends upon and cannot survive without
-  widespread public support and donations to carry out its mission of
-  increasing the number of public domain and licensed works that can be
-  freely distributed in machine-readable form accessible by the widest
-  array of equipment including outdated equipment. Many small donations
-  ($1 to $5,000) are particularly important to maintaining tax exempt
-  status with the IRS.</p>
-  <p>The Foundation is committed to complying with the laws regulating
-  charities and charitable donations in all 50 states of the United
-  States. Compliance requirements are not uniform and it takes a
-  considerable effort, much paperwork and many fees to meet and keep up
-  with these requirements. We do not solicit donations in locations
-  where we have not received written confirmation of compliance. To SEND
-  DONATIONS or determine the status of compliance for any particular
-  state visit
-  <ref target="https://www.gutenberg.org/donate/">www.gutenberg.org/donate</ref>.</p>
-  <p>While we cannot and do not solicit contributions from states where
-  we have not met the solicitation requirements, we know of no
-  prohibition against accepting unsolicited donations from donors in
-  such states who approach us with offers to donate.</p>
-  <p>International donations are gratefully accepted, but we cannot make
-  any statements concerning tax treatment of donations received from
-  outside the United States. U.S. laws alone swamp our small staff.</p>
-  <p>Please check the Project Gutenberg web pages for current donation
-  methods and addresses. Donations are accepted in a number of other
-  ways including checks, online payments and credit card donations. To
-  donate, please visit: www.gutenberg.org/donate</p>
-  <p>Section 5. General Information About Project Gutenberg™ electronic
-  works</p>
-  <p>Professor Michael S. Hart was the originator of the Project
-  Gutenberg™ concept of a library of electronic works that could be
-  freely shared with anyone. For forty years, he produced and
-  distributed Project Gutenberg™ eBooks with only a loose network of
-  volunteer support.</p>
-  <p>Project Gutenberg™ eBooks are often created from several printed
-  editions, all of which are confirmed as not protected by copyright in
-  the U.S. unless a copyright notice is included. Thus, we do not
-  necessarily keep eBooks in compliance with any particular paper
-  edition.</p>
-  <p>Most people start at our website which has the main PG search
-  facility:
-  <ref target="https://www.gutenberg.org">www.gutenberg.org</ref>.</p>
-  <p>This website includes information about Project Gutenberg™,
-  including how to make donations to the Project Gutenberg Literary
-  Archive Foundation, how to help produce our new eBooks, and how to
-  subscribe to our email newsletter to hear about new eBooks.</p>
+  </div> 
 </div>
 </body>
+<back>
+  <div type="notes" xml:id="notes-section">
+    <head>Notes</head>
+    <note xml:id="scapegoat-note">Tkacz lists <ref target="#scapegoat-ref">this 'scapegoat'</ref> as an allusion to <ref target="#Lev16">Leviticus chapter 16,</ref> but it seems like
+    ordinary usage of the term.</note>
+    <note xml:id="abigail-note">The Fourth Norton Critical Edition includes a footnote on page 14 glossing the term 'abigail' as denoting a handmaid or waiting woman. <ref target="#1Sam25">1 Samuel 25</ref> is listed as the source of the term, but neither Norton nor Tkacz consider these usages as allusions: <ref target="#abigail-ref-1">first,</ref> <ref target="#abigail-ref-3">second,</ref> <ref target="#abigail-ref-3">third.</ref> </note>
+  </div>
+  <div type="appendix">
+    <head>Bible references cited</head>
+    <listBibl>
+      <ref xml:id="Lev16" cRef="Lev 16">Leviticus chapter 16.</ref>
+      <ref xml:id="1Sam25" cRef="1 Sam 25">1 Samuel chapter 25.</ref>
+    </listBibl>
+    </div>
+</back>
 </text>
 </TEI>
