@@ -2884,7 +2884,7 @@
     traces of her steps. Flowers peeped out amongst the leaves;
     snow-drops, crocuses, purple auriculas, and golden-eyed pansies. On
     Thursday afternoons (half-holidays) we now took walks, and found
-    still sweeter flowers opening by <seg type="idiom" source="#Luke8.5">the wayside</seg>, under the hedges.</p>
+    still sweeter flowers opening by <seg type="idiom" source="#Luke8.5" xml:id="wayside-ref">the wayside</seg>, under the hedges.</p>
     <p>I discovered, too, that a great pleasure, an enjoyment which the
     horizon only bounded, lay all outside the high and spike-guarded
     walls of our garden: this pleasure consisted in prospect of noble
@@ -11830,7 +11830,7 @@
     governess, sir.”</p>
     <p>“Oh, Adèle will go to school—I have settled that already; nor do
     I mean to torment you with the hideous associations and
-    recollections of Thornfield Hall—this accursed place—this tent of <seg type="allusion" source="#Josh7.19-26">
+    recollections of Thornfield Hall—this accursed place—this tent of <seg type="allusion" source="#Josh7.19-26" xml:id="achan-ref">
     Achan</seg> —this insolent vault, offering the ghastliness of living death
     to the light of the open sky—this narrow stone hell, with its one
     real fiend, worse than a legion of such as we imagine. Jane, you
@@ -16582,7 +16582,7 @@
     Impossible—<hi rendition="simple:italic">i.e.</hi>, my marriage with
     St. John—was fast becoming the Possible. All was changing utterly
     with a sudden sweep. Religion called—Angels beckoned—God
-    commanded— <quote type="paraphrase" source="#Isa34.4">life rolled together like a scroll</quote>—death’s gates opening,
+    commanded— <quote type="paraphrase" source="#Isa34.4" xml:id="scroll-ref">life rolled together like a scroll</quote>—death’s gates opening,
     showed eternity beyond: it seemed, that for safety and bliss there,
     all here might be sacrificed in a second. The dim room was full of
     visions.</p>
@@ -17964,6 +17964,7 @@
     <note xml:id="scapegoat-note">Tkacz lists <ref target="#scapegoat-ref">this 'scapegoat'</ref> as an allusion to <ref target="#Lev16">Leviticus chapter 16,</ref> but it seems like
     ordinary usage of the term.</note>
     <note xml:id="abigail-note">The Fourth Norton Critical Edition includes a footnote on page 14 glossing the term 'abigail' as denoting a handmaid or waiting woman. <ref target="#1Sam25">1 Samuel 25</ref> is listed as the source of the term, but neither Norton nor Tkacz consider these usages as allusions: <ref target="#abigail-ref-1">first,</ref> <ref target="#abigail-ref-3">second,</ref> <ref target="#abigail-ref-3">third.</ref> </note>
+    <note xml:id="scroll-ref">testing...this reference <ref target="#scroll-ref"> a scroll </ref> is an allusion to <ref target="#Isa34.4">Isaiah 34 in the Bible</ref> so yay.</note>
   </div>
   <div type="appendix">
     <head>Bible references cited</head>
