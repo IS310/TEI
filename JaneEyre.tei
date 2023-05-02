@@ -1148,9 +1148,9 @@ December 1, 2020]</p>
     mine! what a great nose! and what a mouth! and what large prominent
     teeth!</p>
     <p>“No sight so sad as that of a naughty child,” he began,
-    “especially a naughty little girl. Do you know where <seg id = "Yuchen" type="allusion" source="#Psalms1-41,4:4"> the wicked </seg> go
+    “especially a naughty little girl. Do you know where <seg id = "Yuchen" type="allusion" source="#Ps4:4" xml:id="wicked-ref1"> the wicked </seg> go
     after death?”</p>
-    <p>“They go to <seg id = "Yuchen" type="allusion" source="#Matthew 25:41, 10:28, Mark 9:43, Roman 3:23, John 3:16-18"> hell,” </seg> was my ready and orthodox answer.</p>
+    <p>“They go to <seg id = "Yuchen" type="allusion" source="#Matt25:41, 10:28, Mark9:43, Rom3:23, John3:16-18" xml:id="hell-ref1"> hell,” </seg> was my ready and orthodox answer.</p>
     <p>“And what is hell? Can you tell me that?”</p>
     <p>“A pit full of fire.”</p>
     <p>“And should you like to fall into that pit, and to be burning
@@ -8261,7 +8261,7 @@ December 1, 2020]</p>
     quiver strangely over the doors of a great cabinet opposite—whose
     front, divided into twelve panels, bore, in grim design, the heads
     of the twelve apostles, each enclosed in its separate panel as in a
-    frame; while above them at the top rose an ebon crucifix and a <seg id = "Yuchen" type="allusion" source="#Luke22, 23"> dying
+    frame; while above them at the top rose an ebon crucifix and a <seg id = "Yuchen" type="allusion" source="#Luke22:23" xml:id="Christ-ref1"> dying
     Christ.</seg></p>
     <p>According as the shifting obscurity and flickering gleam hovered
     here or glanced there, it was now the bearded physician, Luke, that
@@ -18272,5 +18272,24 @@ December 1, 2020]</p>
   subscribe to our email newsletter to hear about new eBooks.</p>
 </div>
 </body>
+<back>
+  <dive type="notes" xml:id="notes-section">
+    <head>Notes</head>
+    <note xml:id="wicked-note">The conversation is talking about where do <ref target="#wicked-ref1"> 'wicked' </ref> go after they dye. Jane says they go to the <ref target="#Ps4.4"> hell which is an allusion to Psalms 4.4. </ref></note>
+    <note xml:id="hell-note">This is the answer about what is the <ref target="#hell-ref1"> 'hell' </ref> from Jane. Jane says the hell is a pit full of fire which is the allusion to the <ref target=#Matt25.41, 10.28, Mark9.43, Rom3.23, John3.16-18> Matthew 25.41, 10.28, Mark 9.43, Roman 3.23, John 3.16-18 because these chaoters in the bible describe what the hell is and what the hell looks like. </ref></note>
+    <note xml:id="Christ-note">This part describes the scene of Jane stay along in the room. The whole scene is pretty frightening. It mentions the death <ref target="#Christ-ref1"> 'christ'which is the allustion to the <ref target=#Luke22:23> Luke22:23 since that chapter describes the death of Jesus.</ref>But now, this word has been used pretty common in our daily life.</note>
+  </div>
+  <dive type="appendix">
+  <head>Bible references cited</head>
+  <listBibl>
+    <ref xml:id="Ps4.4" cRef="Ps 4.4">Psalms chapter 4.4.</ref>
+    <ref xml:id="Matt25.41" cRef="Matt 25.41">Matthew chapter 25.41.</ref>
+    <ref xml:id="Matt10.28" cRef="Matt 10.28">Matthew chapter 10.28</ref>
+    <ref xml"id="Mark9.43" cRef="Mark 9.43">Mark chapter 9.43.</ref>
+    <ref xml:id="Rom3.23" cRef="Rom 3.32">Romans chapter 3.32.</ref>
+    <ref xml:id=Jhon3.16-18 cRef="Jhon 3.16-18">Jhoh chapter 3.16-18.</ref>
+  </listBibl>
+  </div>
+  </back>
 </text>
 </TEI>
