@@ -17964,12 +17964,18 @@ clamour of tongues.</seg> </seg>The upper teachers now punctually resumed their
     <note xml:id="scapegoat-note">Tkacz lists <ref target="#scapegoat-ref">this 'scapegoat'</ref> as an allusion to <ref target="#Lev16">Leviticus chapter 16,</ref> but it seems like
     ordinary usage of the term.</note>
     <note xml:id="abigail-note">The Fourth Norton Critical Edition includes a footnote on page 14 glossing the term 'abigail' as denoting a handmaid or waiting woman. <ref target="#1Sam25">1 Samuel 25</ref> is listed as the source of the term, but neither Norton nor Tkacz consider these usages as allusions: <ref target="#abigail-ref-1">first,</ref> <ref target="#abigail-ref-3">second,</ref> <ref target="#abigail-ref-3">third.</ref> </note>
+    <note xml:id="samson-note">The description of the caged eagle with extinguished eyes alludes to the story of Samson in <ref target="#Judg13">Judges chapter 13:1-25</ref>, who was blinded by the Philistines.</note>
+    <note xml:id="nebuchadnezzar-note">The reference to 'faux air' of Nebuchadnezzar and eagles' feathers is an allusion to <ref target="#Jer21:2">Jeremiah chapter 21:2</ref>, which tells the story of Nebuchadnezzar's punishment by God, wherein he lives among the wild animals with his hair growing like eagles' feathers.</note>
+    <note xml:id="babel-note">The phrase 'Babel clamour of tongues' is an allusion to <ref target="#Gen11">Genesis chapter 11</ref>, which tells the story of the Tower of Babel, where God confounded the languages of the people, creating confusion and scattering them across the earth.</note>
   </div>
   <div type="appendix">
     <head>Bible references cited</head>
     <listBibl>
       <ref xml:id="Lev16" cRef="Lev 16">Leviticus chapter 16.</ref>
       <ref xml:id="1Sam25" cRef="1 Sam 25">1 Samuel chapter 25.</ref>
+      <ref xml:id="Judg13" cRef="Judg 13:1-25">Judges chapter 13:1-25.</ref>
+      <ref xml:id="Jer21:2" cRef="Jer 21:2">Jeremiah chapter 21:2.</ref>
+      <ref xml:id="Gen11" cRef="Gen 11">Genesis chapter 11.</ref>
     </listBibl>
     </div>
 </back>
