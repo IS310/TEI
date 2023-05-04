@@ -2190,7 +2190,7 @@ December 1, 2020]</p>
     and civilised nations disown it.”</p>
     <p>“How? I don’t understand.”</p>
     <p>“It is not violence that best overcomes hate—nor vengeance that
-    most certainly heals injury.” <quote type= "paraphrase" source="Romans12-21">elysiawoodward</seg> </p>
+    most certainly heals injury.” <quote type= "paraphrase" source="#Romans12" xml:id="evil-vengeance-ref">elysiawoodward</seg> </p>
     <p>“What then?”</p>
     <p>“Read the New Testament, and observe what Christ says, and how He
     acts; make His word your rule, and His conduct your example.”</p>
@@ -10811,7 +10811,7 @@ December 1, 2020]</p>
     have pleased than teased him. My future husband was becoming to me
     my whole world; and more than the world: almost my hope of heaven.
     He stood between me and every thought of religion, as an eclipse
-    intervenes between man and the broad sun. <quote type= "allusion" source="Luke23-45">elysiawoodward</seg> I could not, in those
+    intervenes between man and the broad sun. <quote type= "allusion" source="#Luke23" xml:id="eclipse-ref">elysiawoodward</seg> I could not, in those
     days, see God for His creature: of whom I had made an idol.</p>
   </div>
   <div type="level2" xml:id="chapter-xxv">
@@ -16733,7 +16733,7 @@ December 1, 2020]</p>
     desolate, and hopeless, and objectless! It stopped as I beckoned. I
     entered—not now obliged to part with my whole fortune as the price
     of its accommodation. Once more on the road to Thornfield, I felt
-    like the messenger-pigeon flying home.<quote type= "allusion" source="Genesis8-6">elysiawoodward</seg> </p> 
+    like the messenger-pigeon flying home.<quote type= "allusion" source="#Genesis8" xml:id="pigeon-ref">elysiawoodward</seg> </p> 
     <p>It was a journey of six-and-thirty hours. I had set out from
     Whitcross on a Tuesday afternoon, and early on the succeeding
     Thursday morning the coach stopped to water the horses at a wayside
@@ -17962,7 +17962,23 @@ December 1, 2020]</p>
     <p>“My Master,” he says, “has forewarned me. Daily He announces more
     distinctly,—‘Surely I come quickly!’ and hourly I more eagerly
     respond,—‘Amen; even so come, Lord Jesus!’”</p>
+  
+  <note xml:id="eclipse-note"> The word <ref target="#eclipse-ref">elysiawoodward</ref> is an allusion of <ref target="#Luke23"> Chapter 23 of the book according to Luke</ref> In the novel Jane Eyre, Rochester stands between Jane and her every view or thought of religion, just like how in <reftarget="#Luke23"> chapter 23 of the book according to Luke </ref> the eclipse intervened between Jesus and the sun.  It has been noted in my copy of the book that the author intentionally used the word “eclipse” to force a biblical image onto the reader. However, one can also interpret it as it representing a barrier between Jane and her religious beliefs, serving as a metaphor to the temple being ripped in two, just as she is torn within herself.</note>
+
+  <note xml:id="pigeon-note"> The word <ref target="#pigeon-ref">elysiawoodward</ref> is an allusion of <ref target="#Genesis8"> Chapter 8 of the book according to Genesis</ref>. In <reftarget="#Genesis8"> chapter 8 of the book of Genesis </ref>, after the flood had ended and the waters receded, Noah sent out a dove to notify him if the waters had receded fully.  The dove came back with an olive leaf in its beak, letting Noah know that there was land nearby. In Jane Eyre, this is a metaphor for her sense of relief in being able to leave Thornfield with her inheritance. This allusion is important because it still sends that core moral lesson that has been viewed as important throughout this novel and the Bible.</note>
+  
+  <note xml:id="evil-vengeance-note"> The section <ref target="#evil-vengeance-ref">elysiawoodward</ref> is a paraphrase of <ref target="#Romans12"> chapter 12 of the book titled Romans </ref>, that states the phrase <ref target="#Romans12"> Do not be overcome by evil, but overcome evil with good </ref>. This is a similar theme throughout the novel as well as the overall message, for it stresses the importance of responding to hate and evil with love and forgiveness.  This is a largely repeated message throughout the novel because of the author’s firm belief that it is a much more effective solution when responding to negativity and hatred, in addition to the fact that it is also a much-stressed lesson throughout both books referenced.</note>
+
   </div>
+  <div type+"appendix">
+    <head>Cited Bible References<head>
+    <listBibl>
+      <ref xml:id="Rom12" cRef="Rom 12">Romans chapter 12</ref>
+      <ref xml:id="Gen8" cRef="Gen 8">Genesis chapter 8</ref>
+      <ref xml:id="Luke23" cRef="Luke 23">Luke chapter 23</ref>
+    </listBibl>
+    </div>
+
   <p>*** END OF THE PROJECT GUTENBERG EBOOK JANE EYRE ***</p>
   <p>This file should be named 1260-h.htm or 1260-h.zip</p>
   <p>This and all associated files of various formats will be found in
