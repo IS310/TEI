@@ -11659,11 +11659,10 @@
     tropics, now spread, waste, wild, and white as pine-forests in
     wintry Norway. 
     <div type="appendix">
-    <ref xml:id="Ex12.29-30" cRef="Ex12.29-30">
-    <seg type="allusion" source="#Ex12.29-30">
+    <seg type="allusion" source="#Ex12.29-30" xml:id="firstborn-reference">
     My hopes were all dead—struck with a subtle doom,
     such as, in one night, fell on all the first-born in the land of
-    Egypt. </div>
+    Egypt. </seg> </div>
     I looked on my cherished wishes, yesterday so blooming and
     glowing; they lay stark, chill, livid corpses that could never
     revive. I looked at my love: that feeling which was my
@@ -12130,8 +12129,7 @@
     long as I, being as robust in frame as she was infirm in mind. Thus,
     at the age of twenty-six, I was hopeless.</p>
     <div type="appendix">
-    <ref xml:id="1Kgs19.11-13"cRef="1Kgs19.11-13">
-    <seg type="allusion" source="#1Kgs19.11-13">
+    <seg type="allusion" source="#1Kgs19.11-13" xml:id="1Kgs-reference">
     <p>“One night I had been awakened by her yells—(since the medical
     men had pronounced her mad, she had, of course, been shut up)—it was
     a fiery West Indian night; one of the description that frequently
@@ -12149,7 +12147,7 @@
     language!—no professed harlot ever had a fouler vocabulary than she:
     though two rooms off, I heard every word—the thin partitions of the
     West India house opposing but slight obstruction to her wolfish
-    cries.</p>
+    cries.</p> </seg>
     </div>
     <p>“‘This life,’ said I at last, ‘is hell: this is the air—those are
     the sounds of the bottomless pit! I have a right to deliver myself
@@ -14276,11 +14274,10 @@
     <p>“I have hardly had time yet to enjoy a sense of tranquillity,
     much less to grow impatient under one of loneliness.”</p>
     <div type="appendix">
-    <ref xml:id="Gen19.12-26" cRef="Gen19:12-26">
-    <seg type="allusion" source="#Gen19:12-26">
+    <seg type="allusion" source="#Gen19:12-26" xml:id="lotwife-reference">
     <p>“Very well; I hope you feel the content you express: at any rate,
     your good sense will tell you that it is too soon yet to yield to
-    the vacillating fears of Lot’s wife. </div>
+    the vacillating fears of Lot’s wife. </seg> </div>
     What you had left before I saw
     you, of course I do not know; but I counsel you to resist firmly
     every temptation which would incline you to look back: pursue your
