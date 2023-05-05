@@ -11657,9 +11657,14 @@
     to-day were pathless with untrodden snow; and the woods, which
     twelve hours since waved leafy and fragrant as groves between the
     tropics, now spread, waste, wild, and white as pine-forests in
-    wintry Norway. My hopes were all dead—struck with a subtle doom,
+    wintry Norway. 
+    <div type="appendix">
+    <ref xml:id="Ex12.29-30" cRef="Ex12.29-30">Exodus chapter 12.</ref>
+    <seg type="allusion" source="#Ex12.29-30">
+    My hopes were all dead—struck with a subtle doom,
     such as, in one night, fell on all the first-born in the land of
-    Egypt. I looked on my cherished wishes, yesterday so blooming and
+    Egypt. </div>
+    I looked on my cherished wishes, yesterday so blooming and
     glowing; they lay stark, chill, livid corpses that could never
     revive. I looked at my love: that feeling which was my
     master’s—which he had created; it shivered in my heart, like a
@@ -12124,6 +12129,9 @@
     to me even in the particular of her age), she was likely to live as
     long as I, being as robust in frame as she was infirm in mind. Thus,
     at the age of twenty-six, I was hopeless.</p>
+    <div type="appendix">
+    <ref xml:id="1Kgs19.11-13"cRef="1Kgs19.11-13">1 Kings chapter 19.</ref>
+    <seg type="allusion" source="#1Kgs19.11-13">
     <p>“One night I had been awakened by her yells—(since the medical
     men had pronounced her mad, she had, of course, been shut up)—it was
     a fiery West Indian night; one of the description that frequently
@@ -12142,6 +12150,7 @@
     though two rooms off, I heard every word—the thin partitions of the
     West India house opposing but slight obstruction to her wolfish
     cries.</p>
+    </div>
     <p>“‘This life,’ said I at last, ‘is hell: this is the air—those are
     the sounds of the bottomless pit! I have a right to deliver myself
     from it if I can. The sufferings of this mortal state will leave me
@@ -14266,9 +14275,13 @@
     behind you is dark and empty.”</p>
     <p>“I have hardly had time yet to enjoy a sense of tranquillity,
     much less to grow impatient under one of loneliness.”</p>
+    <div type="appendix">
+    <ref xml:id="Gen19.12-26" cRef="Gen19:12-26">Genesis chapter 19.</ref>
+    <seg type="allusion" source="#Gen19:12-26">
     <p>“Very well; I hope you feel the content you express: at any rate,
     your good sense will tell you that it is too soon yet to yield to
-    the vacillating fears of Lot’s wife. What you had left before I saw
+    the vacillating fears of Lot’s wife. </div>
+    What you had left before I saw
     you, of course I do not know; but I counsel you to resist firmly
     every temptation which would incline you to look back: pursue your
     present career steadily, for some months at least.”</p>
@@ -17964,12 +17977,21 @@
     <note xml:id="scapegoat-note">Tkacz lists <ref target="#scapegoat-ref">this 'scapegoat'</ref> as an allusion to <ref target="#Lev16">Leviticus chapter 16,</ref> but it seems like
     ordinary usage of the term.</note>
     <note xml:id="abigail-note">The Fourth Norton Critical Edition includes a footnote on page 14 glossing the term 'abigail' as denoting a handmaid or waiting woman. <ref target="#1Sam25">1 Samuel 25</ref> is listed as the source of the term, but neither Norton nor Tkacz consider these usages as allusions: <ref target="#abigail-ref-1">first,</ref> <ref target="#abigail-ref-3">second,</ref> <ref target="#abigail-ref-3">third.</ref> </note>
+    <note xml:id="1Kgs19.11-13">Rochester mistakes his resolution as true wisdom and decides to go down the wrong path. Bronte makes the allusion more clear by using the three words “fiery”, “hurricane”, and “earthquake”, and puts Rochester in a similar situation to what Elijah was in: facing hardships, hearing a voice, and finding new determination.<ref target="1Kgs19.11-13"></ref>
+    </note>
+    <note xml:id="Ex12.29-30">By metaphorically referring to the feeling of doom of the Tenth Plague bto her feelings when she found out about Rochester’s wife, Jane is making a direct reference to the Bible.<ref target="Ex12.29-30"></ref>
+    </note>
+    <note xml:id="Gen19.12-26">St. John means to express his wish for Jane to pursue her new career for a while, and Jane agrees. Lot’s wife refers to Genesis 19:12-26, in which Lot’s family was warned to escape the city of Sodom before it collapsed. <ref target="Gen19.12-26"></ref>
+    </note>
   </div>
   <div type="appendix">
     <head>Bible references cited</head>
     <listBibl>
       <ref xml:id="Lev16" cRef="Lev 16">Leviticus chapter 16.</ref>
       <ref xml:id="1Sam25" cRef="1 Sam 25">1 Samuel chapter 25.</ref>
+      <ref xml:id="1Kgs19.11-13"cRef="1Kgs19.11-13">1 Kings chapter 19.</ref>
+      <ref xml:id="Ex12.29-30" cRef="Ex12.29-30">Exodus chapter 12.</ref>
+      <ref xml:id="Gen19.12-26" cRef="Gen19:12-26">Genesis chapter 19.</ref>
     </listBibl>
     </div>
 </back>
