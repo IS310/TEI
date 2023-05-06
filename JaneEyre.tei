@@ -11805,7 +11805,7 @@
     self-respect. What do you say to that? I see you can say nothing: in
     the first place, you are faint still, and have enough to do to draw
     your breath; in the second place, you cannot yet accustom yourself
-    to accuse and revile me, and besides, the flood-gates of tears are
+    to accuse and revile me, and besides, the <seg type="idiom" source="#Gen7.11" xml:id="flood-gates-ref"> flood-gates </seg> of tears are
     opened, and they would rush out if you spoke much; and you have no
     desire to expostulate, to upbraid, to make a scene: you are thinking
     how <hi rendition="simple:italic">to
@@ -17964,12 +17964,20 @@
     <note xml:id="scapegoat-note">Tkacz lists <ref target="#scapegoat-ref">this 'scapegoat'</ref> as an allusion to <ref target="#Lev16">Leviticus chapter 16,</ref> but it seems like
     ordinary usage of the term.</note>
     <note xml:id="abigail-note">The Fourth Norton Critical Edition includes a footnote on page 14 glossing the term 'abigail' as denoting a handmaid or waiting woman. <ref target="#1Sam25">1 Samuel 25</ref> is listed as the source of the term, but neither Norton nor Tkacz consider these usages as allusions: <ref target="#abigail-ref-1">first,</ref> <ref target="#abigail-ref-3">second,</ref> <ref target="#abigail-ref-3">third.</ref> </note>
+    <note xml:id="Samson-ref">Tkacz lists <ref target="#Samson-ref">'Samson's strength'</ref> as an allusion to <ref target="##1Judg13.2">Judges chapter 13,</ref> and it seem to be used within the sentence as a regular expression to depict strength.</note>
+    <note xml:id="flood-gates-ref">Tkacz lists <ref target="#flood-gates-ref">'flood-gates's of the heavens'</ref> as an idiom to <ref target="#Gen7.11">Genesis chapter 7,</ref> and acts a syblolism and hyperbole for the overflow of tears.</note>
+    <note xml:id="Rock of Ages-ref">Tkacz lists <ref target="#Rock of Ages-ref">'It is the Rock of Ages'</ref> as an allusion to <ref target="#Isa26.4">Isiah chapter 26,</ref> as it animates the solid faith in God.</note>
+    
+    
   </div>
   <div type="appendix">
     <head>Bible references cited</head>
     <listBibl>
       <ref xml:id="Lev16" cRef="Lev 16">Leviticus chapter 16.</ref>
       <ref xml:id="1Sam25" cRef="1 Sam 25">1 Samuel chapter 25.</ref>
+      <ref xml:id="#Gen7.11 cRef="#Gen7.11">Genesis chapter 7.</ref>
+      <ref xml:id="#1Judg13.2" cRef="#1Judg13.2" > Judges chapter 13.</ref>
+      <ref xml:id="Isa26.4" cRef="Isa26.4"> Isiah chapter 26.</ref>
     </listBibl>
     </div>
 </back>
