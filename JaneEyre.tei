@@ -357,8 +357,14 @@
     I was really subsiding, she loosened her hold of me; then she and
     Miss Abbot stood with folded arms, looking darkly and doubtfully on
     my face, as incredulous of my sanity.</p>
+<<<<<<< HEAD
     <p>“She never did so before,” at last said Bessie, turning to the
     <seg type="idiom" source="#1Sam25" xml:id="abigail-ref-1">Abigail.</seg></p>
+=======
+    <p>“She never did so before,” at last said Bessie, turning to the <seg type
+    = "idiom" source = #1Sam25
+    Abigail.</seg></p>
+>>>>>>> Bronte and the bible
     <p>“But it was always in her,” was the reply. “I’ve told Missis
     often my opinion about the child, and Missis agreed with me. She’s
     an underhand little thing: I never saw a girl of her age with so
@@ -1143,7 +1149,9 @@
     <p>“No sight so sad as that of a naughty child,” he began,
     “especially a naughty little girl. Do you know where the wicked go
     after death?”</p>
-    <p>“They go to hell,” was my ready and orthodox answer.</p>
+    <p>“They go to <seg id = "Rodneywhite12" type="allusion" source="#Matthew 25:41,
+    10:28, Mark 9:43, Roman 3:23, John 3:16-18"> hell,” </seg> was my ready 
+    and orthodox answer.</p>
     <p>“And what is hell? Can you tell me that?”</p>
     <p>“A pit full of fire.”</p>
     <p>“And should you like to fall into that pit, and to be burning
@@ -2863,7 +2871,8 @@
     being able to translate currently a certain little French story
     which Madame Pierrot had that day shown me; nor was that problem
     solved to my satisfaction ere I fell sweetly asleep.</p>
-    <p>Well has Solomon said—“Better is a dinner of herbs where love is,
+    <p>Well has Solomon said—,<seg type="quote" source="#Prov15.17">“Better is a
+    dinner of herbs where love is, </seg>
     than a stalled ox and hatred therewith.”</p>
     <p>I would not now have exchanged Lowood with all its privations for
     Gateshead and its daily luxuries.</p>
@@ -16682,9 +16691,9 @@
     <p>It wanted yet two hours of breakfast-time. I filled the interval
     in walking softly about my room, and pondering the visitation which
     had given my plans their present bent. I recalled that inward
-    sensation I had experienced: for I could recall it, with all its
-    unspeakable strangeness. I recalled the voice I had heard; again I
-    questioned whence it came, as vainly as before: it seemed in
+    sensation I had experienced: for I could recall it, with all its <seg type="allusion" 
+    source="#2Cor12.4">unspeakable</seg> strangeness. I recalled the voice I had
+    heard; again I questioned whence it came, as vainly as before: it seemed in
     <hi rendition="simple:italic">me</hi>—not in the external world. I
     asked was it a mere nervous impression—a delusion? I could not
     conceive or believe: it was more like an inspiration. The wondrous
@@ -17710,8 +17719,13 @@
     but far more wisely. I did wrong: I would have sullied my innocent
     flower—breathed guilt on its purity: the Omnipotent snatched it from
     me. I, in my stiff-necked rebellion, almost cursed the dispensation:
+<<<<<<< HEAD
     instead of bending to the decree,
     <seg type="allusion" source="#Psalm 23:1-6" defied it. Divine justice
+=======
+    instead of bending to the decree, I defied it. <seg type="allusion"source=
+    "#Psalms23:4"> Divine justice
+>>>>>>> main
     pursued its course; disasters came thick on me: I was forced to pass
     through the valley of the shadow of death. </seg>
     <hi rendition="simple:italic">His</hi> chastisements are mighty; and
