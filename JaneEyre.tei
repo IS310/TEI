@@ -13128,7 +13128,7 @@
     voice broke the strange stillness at last, it was audible enough to
     me.</p>
     <p>“Listen, Diana,” said one of the absorbed students; “Franz and
-    old Daniel are together in the night-time, and Franz is telling a
+    old <seg type ="allusion" source = "#2Sam3:3" xml:id="daniel-ref-1"> Daniel </seg> are together in the night-time, and Franz is telling a
     dream from which he has awakened in terror—listen!” And in a low
     voice she read something, of which not one word was intelligible to
     me; for it was in an unknown tongue—neither French nor Latin.
@@ -16689,7 +16689,8 @@
     asked was it a mere nervous impression—a delusion? I could not
     conceive or believe: it was more like an inspiration. The wondrous
     shock of feeling had come like the earthquake which shook the
-    foundations of Paul and Silas’s prison; it had opened the doors of
+    foundations of <seg type="allusion" source="#Acts16" xml:id="paul-ref-1">
+      Paul and Silas’s prison</seg>; it had opened the doors of
     the soul’s cell and loosed its bands—it had wakened it out of its
     sleep, whence it sprang trembling, listening, aghast; then vibrated
     thrice a cry on my startled ear, and in my quaking heart and through
@@ -17279,10 +17280,10 @@
     <p>“It is time some one undertook to rehumanise you,” said I,
     parting his thick and long uncut locks; “for I see you are being
     metamorphosed into a lion, or something of that sort. You have a
-    ‘faux air’ of Nebuchadnezzar in the fields about you, that is
-    certain: <seg type="allusion" source="#Dan4.33">your hair reminds me of eagles’ feathers; whether your
-    nails are grown like birds’ claws or not,</seg> I have not yet
-    noticed.”</p>
+    <seg type="allusion" source="#Dan4:33-34" xml:id="nebuchadnezzar-ref-1">‘faux air’ of Nebuchadnezzar  
+    in the fields about you, that is certain: your hair reminds me of eagles’ 
+    feathers; whether your nails are grown like birds’ claws or not, I have 
+    not yet noticed.”</seg></p>
     <p>“On this arm, I have neither hand nor nails,” he said, drawing
     the mutilated limb from his breast, and showing it to me. “It is a
     mere stump—a ghastly sight! Don’t you think so, Jane?”</p>
@@ -17961,10 +17962,12 @@
 <back>
   <div type="notes" xml:id="notes-section">
     <head>Notes</head>
-    <note xml:id="scapegoat-note">Tkacz lists <ref target="#scapegoat-ref">this 'scapegoat'</ref> as an allusion to <ref target="#Lev16">Leviticus chapter 16,</ref> but it seems like
-    ordinary usage of the term.</note>
+    <note xml:id="scapegoat-note">Tkacz lists <ref target="#scapegoat-ref">this 'scapegoat'</ref> as an allusion to <ref target="#Lev16">Leviticus chapter 16,</ref> but it seems like ordinary usage of the term.</note>
     <note xml:id="abigail-note">The Fourth Norton Critical Edition includes a footnote on page 14 glossing the term 'abigail' as denoting a handmaid or waiting woman. <ref target="#1Sam25">1 Samuel 25</ref> is listed as the source of the term, but neither Norton nor Tkacz consider these usages as allusions: <ref target="#abigail-ref-1">first,</ref> <ref target="#abigail-ref-3">second,</ref> <ref target="#abigail-ref-3">third.</ref> </note>
-  </div>
+    <note xml:id="nebuchadnezzar-note"> Jane compares Rochester's appearance to Nebuchadnezzar, from Bible Verse Daniel 4:33-34, after he was too prideful and was changed into an animal as punishment. <ref target="#Dan4:33-34">Daniel 4:33-34</ref> is listed as the source of the term: <ref target="nebuchadnezzar-ref-1">first.</ref> </note>
+    <note xml id="paul-note"> This allusion to the bible is made by comparing Jane's shock to the earthquake that shook free Paul and Silas from prison. <ref target="#Acts16">Acts 16</ref> is listed as the source of the term: <ref target="#paul-ref-1"first.</ref> </note>
+    <note xml id="daniel-note"> This possible allusion to the bible is through the use of the name Daniel for one of the characters in Jane Eyre. In the part tagged, they are discussing Daniel's dream, and in the bible Daniel is a prophet with a speciality of interpreting dreams. <ref target="#2Sam3:3">2 Samual 3:3</ref> is listed as the source of the term: <ref target="daniel-ref-1">first.</ref> </note>
+  </div> 
   <div type="appendix">
     <head>Bible references cited</head>
     <listBibl>
