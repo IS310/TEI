@@ -1725,7 +1725,7 @@
     <p>“Silence! To your seats!”</p>
     <p><seg type="allusion" source="#Gen11">Discipline prevailed: in five minutes the confused throng was
     resolved into order, and comparative silence quelled the 
-    <seg type="allusion" source="#Gen11.8-16" xml:id="Gen11"> Babel  
+    <seg type="allusion" source="#Gen11.8-16" xml:id="Babel-ref"> Babel  
 clamour of tongues.</seg> </seg>The upper teachers now punctually resumed their
     posts: but still, all seemed to wait. Ranged on benches down the
     sides of the room, the eighty girls sat motionless and erect; a
@@ -17082,7 +17082,7 @@ clamour of tongues.</seg> </seg>The upper teachers now punctually resumed their
     could his athletic strength be quelled or his vigorous prime
     blighted. But in his countenance I saw a change: that looked
     desperate and brooding—that reminded me of some wronged and fettered
-    wild beast or bird, dangerous to approach in his sullen woe. <seg type="allusion" source="#Judg13:1-25" xml:id="#Judg13">The
+    wild beast or bird, dangerous to approach in his sullen woe. <seg type="allusion" source="#Judg13:1-25" xml:id="#samson-ref">The
     caged eagle, whose gold-ringed eyes cruelty has extinguished, might
     look as looked that sightless Samson.</seg></p>
     <p>And, reader, do you think I feared him in his blind ferocity?—if
@@ -17278,7 +17278,7 @@ clamour of tongues.</seg> </seg>The upper teachers now punctually resumed their
     resumed a livelier vein of conversation.</p>
     <p>“It is time some one undertook to rehumanise you,” said I,
     parting his thick and long uncut locks; “for I see you are being
-    metamorphosed into a lion, or something of that sort.<seg type="allusion" source="#Jer21:2" xml:id="Jer21:2"> You have a
+    metamorphosed into a lion, or something of that sort.<seg type="allusion" source="#Jer21:2" xml:id="Nebuchadnezzar-ref"> You have a
     ‘faux air’ of Nebuchadnezzar in the fields about you,</seg> that is
     certain: <seg type="allusion" source="#Dan4.33">your hair reminds me of eagles’ feathers; whether your
     nails are grown like birds’ claws or not,</seg> I have not yet
@@ -17964,9 +17964,9 @@ clamour of tongues.</seg> </seg>The upper teachers now punctually resumed their
     <note xml:id="scapegoat-note">Tkacz lists <ref target="#scapegoat-ref">this 'scapegoat'</ref> as an allusion to <ref target="#Lev16">Leviticus chapter 16,</ref> but it seems like
     ordinary usage of the term.</note>
     <note xml:id="abigail-note">The Fourth Norton Critical Edition includes a footnote on page 14 glossing the term 'abigail' as denoting a handmaid or waiting woman. <ref target="#1Sam25">1 Samuel 25</ref> is listed as the source of the term, but neither Norton nor Tkacz consider these usages as allusions: <ref target="#abigail-ref-1">first,</ref> <ref target="#abigail-ref-3">second,</ref> <ref target="#abigail-ref-3">third.</ref> </note>
-    <note xml:id="samson-note">The description of the caged eagle with extinguished eyes alludes to the story of Samson in <ref target="#Judg13">Judges chapter 13:1-25</ref>, who was blinded by the Philistines.</note>
-    <note xml:id="nebuchadnezzar-note">The reference to 'faux air' of Nebuchadnezzar and eagles' feathers is an allusion to <ref target="#Jer21:2">Jeremiah chapter 21:2</ref>, which tells the story of Nebuchadnezzar's punishment by God, wherein he lives among the wild animals with his hair growing like eagles' feathers.</note>
-    <note xml:id="babel-note">The phrase 'Babel clamour of tongues' is an allusion to <ref target="#Gen11">Genesis chapter 11</ref>, which tells the story of the Tower of Babel, where God confounded the languages of the people, creating confusion and scattering them across the earth.</note>
+    <note xml:id="samson-note">The description of the caged eagle with extinguished eyes alludes to the story of Samson in <ref target="#Judg13">Judges chapter 13:1-25</ref>, who was blinded by the Philistines.<ref target="#samson-ref"></ref></note>
+    <note xml:id="nebuchadnezzar-note">The reference to 'faux air' of Nebuchadnezzar and eagles' feathers is an allusion to <ref target="#Jer21:2">Jeremiah chapter 21:2</ref>, which tells the story of Nebuchadnezzar's punishment by God, wherein he lives among the wild animals with his hair growing like eagles' feathers.<ref target="#Nebuchadnezzar-ref"></ref></note>
+    <note xml:id="babel-note">The phrase 'Babel clamour of tongues' is an allusion to <ref target="#Gen11">Genesis chapter 11</ref>, which tells the story of the Tower of Babel, where God confounded the languages of the people, creating confusion and scattering them across the earth.<ref target="#babel-ref"></ref></note>
   </div>
   <div type="appendix">
     <head>Bible references cited</head>
