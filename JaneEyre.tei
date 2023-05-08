@@ -2450,7 +2450,8 @@
     of doom—</p>
     <p>“All those top-knots must be cut off.”</p>
     <p>Miss Temple seemed to remonstrate.</p>
-    <p><seg source="Gen2:15">“Madam,” he pursued, “I have a Master to serve whose kingdom is
+    <p><seg source="Gen2:15">“Madam,” xml:id="Garden-ref"> Garden 
+ he pursued, “I have a Master to serve whose kingdom is
     not of this world: my mission is to mortify in these girls the lusts
     of the flesh; to teach them to clothe themselves with
     shame-facedness and sobriety, not with braided hair and costly
@@ -3130,7 +3131,8 @@
     with my quilt.”</p>
     <p>I did so: she put her arm over me, and I nestled close to her.
     After a long silence, she resumed, still whispering—</p>
-    <p><seg source="Matt19:8"“I am very happy, Jane; and when you hear that I am dead, you
+    <p><seg xml:id source="Matt19:8" xml:id="COTBD-ref"> COTBD 
+“I am very happy, Jane; and when you hear that I am dead, you
     must be sure and not grieve: there is nothing to grieve about. We
     all must die one day, and the illness which is removing me is not
     painful; it is gentle and gradual: my mind is at rest. I leave no
@@ -17721,7 +17723,8 @@
     me. I, in my stiff-necked rebellion, almost cursed the dispensation:
 <<<<<<< HEAD
     instead of bending to the decree,
-    <seg type="allusion" source="#Psalm 23:1-6" defied it. Divine justice
+    <seg type="allusion" source="#Psalm 23:1-6" xml:id="LORD-ref"> LORD
+ defied it. Divine justice
 =======
     instead of bending to the decree, I defied it. <seg type="allusion"source=
     "#Psalms23:4"> Divine justice
@@ -17976,6 +17979,9 @@
 <back>
   <div type="notes" xml:id="notes-section">
     <head>Notes</head>
+        <note xml:id="cotbd-note">"The children of the bridal chamber" in Chapter 38 is a phrase used in the context of Mr. Rochester and Jane's wedding, when the narrator describes the couple as being "no more twain, but one flesh." This phrase is a reference to a biblical verse from the Gospel of Matthew, in which Jesus discusses the sanctity of marriage and the union of a man and a woman as becoming "one flesh." <ref target="#Matt19:8">Matthew chapter 19:8</ref>,<ref target="#cotbd-ref"></ref></note>
+    <note xml:id="Lord-note">The reference to “ Divine justice pursued its course; disasters came thick on me: I was forced to pass through the valley of the shadow of death” is a direct biblical reference to the Lord’s Prayer and an allusion to <ref target="#Psalm23:1-6">Psalms chapter 23:1-6</ref>, The Lord’s prayer has this quote, “Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me. The evidence is clear that it is referencing a biblical allusion to the Lord’s Prayer(The Lord is My Shepherd”.<ref target="#Lord-ref"></ref></note>
+    <note xml:id="garden-note">The theme 'By the sweat of your brow' is an allusion to <ref target="#Gen2:15">Genesis chapter 2</ref>, This phrase is taken from the Book of Genesis, where God tells Adam that he will have to toil and sweat in order to cultivate the land after he is cast out of the Garden of Eden. In Jane Eyre, this phrase is used by Mr. Brocklehurst to admonish Jane for her unruly hair, saying that it is a sign of vanity and that she should remember that she is meant to earn her bread "by the sweat of her brow.".<ref target="#garden-ref"></ref></note>
     <note xml:id="scapegoat-note">Tkacz lists <ref target="#scapegoat-ref">this 'scapegoat'</ref> as an allusion to <ref target="#Lev16">Leviticus chapter 16,</ref> but it seems like
     ordinary usage of the term.</note>
     <note xml:id="abigail-note">The Fourth Norton Critical Edition includes a footnote on page 14 glossing the term 'abigail' as denoting a handmaid or waiting woman. <ref target="#1Sam25">1 Samuel 25</ref> is listed as the source of the term, but neither Norton nor Tkacz consider these usages as allusions: <ref target="#abigail-ref-1">first,</ref> <ref target="#abigail-ref-3">second,</ref> <ref target="#abigail-ref-3">third.</ref> </note>
@@ -17983,6 +17989,9 @@
   <div type="appendix">
     <head>Bible references cited</head>
     <listBibl>
+      <ref xml:id="Gen2" cRef="Gen 2:15">Genesis chapter 2:15.</ref>
+      <ref xml:id="Matt19" cRef="Matt 19:8">Matthew chapter 19:8.</ref>
+      <ref xml:id="Psalm23" cRef="Psalm 23">Psalm chapter 23.</ref>
       <ref xml:id="Lev16" cRef="Lev 16">Leviticus chapter 16.</ref>
       <ref xml:id="1Sam25" cRef="1 Sam 25">1 Samuel chapter 25.</ref>
     </listBibl>
